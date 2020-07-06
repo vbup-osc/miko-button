@@ -28,7 +28,7 @@
 
 添加的新音频请先使用类似 MP3GainGUI 的软件进行音量标准化，目前音量全部标准化为80。
 
-由于本站采用强缓存策略，除 `index.html` 外，文件名一致的文件，即使做出修改也 **永远** 不会被客户端刷新。因此新添加的音频，无论是新增还是修改，文件名都 **必须** 和之前任何文件名不同。
+由于本项目采用强缓存策略，除 `index.html` 外，文件名一致的文件，即使做出修改也 **永远** 不会被客户端刷新。因此新添加的音频，无论是新增还是修改，文件名都 **必须** 和之前任何文件名不同。
 
 修改音频之后请删除原音频文件。
 
@@ -53,3 +53,7 @@ This project is modified based on the [Mio button](https://github.com/VoiceButto
 [![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://vercel.com)
 
 本项目由 [Vercel](https://vercel.com/) 强力驱动。
+
+以及所有支持这个项目的朋友，你们的鼓励是我孜孜不倦的源动力，谢谢你们。
+
+虚位以待...
