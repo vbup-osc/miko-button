@@ -14,18 +14,18 @@
                 
                 <div class="collapse navbar-collapse" id="bs-navbar-collapse">
                     <ul class="nav navbar-nav" style="margin-bottom:0px;">
-                        <li><a href="https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg" target="_blank" style="margin-top:2px"><img src="resources/youtube_social_icon_red.png" height="20"/></a></li>
-                        <li><a href="https://twitter.com/ookamimio" target="_blank"><img src="resources/Twitter_Social_Icon_Circle_Color.png" height="27"/></a></li>
-                        <li><a href="https://space.bilibili.com/389862071" target="_blank"><img src="resources/bilibili.png" height="27"/></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA" target="_blank" style="margin-top:2px"><img src="resources/youtube_social_icon_red.png" height="20"/></a></li>
+                        <li><a href="https://twitter.com/sakuramiko35" target="_blank"><img src="resources/Twitter_Social_Icon_Circle_Color.png" height="27"/></a></li>
+                        <li><a href="https://space.bilibili.com/366690056" target="_blank"><img src="resources/bilibili.png" height="27"/></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right" style="margin-top:0px;margin-bottom:0px">
-                        <li class="dropdown">
+                        <!--<li class="dropdown">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="resources/download.svg" height="23"/></a>
                             <ul class="dropdown-menu">
-                                <li style="width: 63px;"><a href="https://ookamimio.org/resources/android.apk" download="android.apk" target="_blank" style="padding-left:18px"><img src="resources/Android.png" height="27"/></a></li>
-                                <li style="width: 63px;"><a href="https://ookamimio.org/resources/apple.mobileconfig" download="apple.mobileconfig" target="_blank" style="padding-left:18px"><img src="resources/Apple.png" height="27"/></a></li>
+                                <li style="width: 63px;"><a href="https://sakuramiko.org/resources/android.apk" download="android.apk" target="_blank" style="padding-left:18px"><img src="resources/Android.png" height="27"/></a></li>
+                                <li style="width: 63px;"><a href="https://sakuramiko.org/resources/apple.mobileconfig" download="apple.mobileconfig" target="_blank" style="padding-left:18px"><img src="resources/Apple.png" height="27"/></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                     <ul class="nav navbar-nav navbar-right" style="margin-top:0px;">
                         <li class="dropdown">
@@ -45,12 +45,12 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #eeeeee;text-decoration: none">Colorful Wolf 1.3.3</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #eeeeee;text-decoration: none">Version 1.0.0</a></button>
                 <div class="pull-left">
                     <div class="text-left" style="color: rgba(255, 166, 102);">{{$t("info.author")}}</div>
                     <div class="text-left">{{$t("info.notOfficial")}}</div>
-                    <div class="text-left"><a href="https://voicebuttonunitedproject.github.io/MioButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
-                    <div class="text-left"><a href="https://github.com/VoiceButtonUnitedProject/MioButton" target="_blank">{{$t("info.toGithub")}}</a></div>
+                    <div class="text-left"><a href="https://voicebuttonunitedproject.github.io/MikoButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
+                    <div class="text-left"><a href="https://github.com/VoiceButtonUnitedProject/MikoButton" target="_blank">{{$t("info.toGithub")}}</a></div>
                 </div>
             </div>
         </footer>

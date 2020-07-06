@@ -14,7 +14,7 @@
             </div>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:40px;height:auto;margin-left:5px;margin-bottom: 3px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
-                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" v-if="item.ytChannelId === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
+                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" v-if="item.ytChannelId === 'UC-hM6YJuNYVAmUWxeIr9FeA'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
                     <div v-for="live in live_data" :key="live.startTime">
                         <div v-if="live.title.length">
                             <span v-if="live.type === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{ format_time(live.startTime) }}</span>
@@ -35,9 +35,7 @@
                         <button class="btn btn-ctrldft" @click="randomshare">{{$t("action.share")}}</button>
                 </div>
                 <div class="cate-ctrldft">{{$t("action.adtitle")}}
-                    <button class="btn btn-ctrldft" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
                     <button class="btn btn-ctrldft" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
-                    <button class="btn btn-ctrldft" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
                 <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
@@ -270,7 +268,7 @@ class HomePage extends Vue {
         .then(response => { 
             let fetched = response.data;
             let mio_lives = [];
-            const channel_id = 'UCp-5t9SrOQwXMU7iIjQfARg';
+            const channel_id = 'UC-hM6YJuNYVAmUWxeIr9FeA';
             fetched.live.forEach(function(item){
                 if (item.channel === channel_id){
                     item.type = 'live';
@@ -327,11 +325,11 @@ class HomePage extends Vue {
         var title=this.$t("voice."+ tempList.voiceList[this._randomNum(0, tempList.voiceList.length - 1)].name);
         var res=document.getElementById('share').value;
         if(this.$i18n.locale === 'ja-JP'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「ミオボタン」のWebサイトにアクセスしてください~ https://t.co/TLdj8E9Rct");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23ミオかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://t.co/fZ6lzCIxMR");
         }else if(this.$i18n.locale === 'en-US'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい Today，"+res+"'s random audio is "+title+"！ Visit Mio Button Website For More Audio! https://t.co/TLdj8E9Rct");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23ミオかわいい Today，"+res+"'s random audio is "+title+"！ Visit Miko Button Website For More Audio! https://t.co/fZ6lzCIxMR");
         }else {
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问狼按钮网站聆听更多音频 https://t.co/TLdj8E9Rct");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23ミオかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问樱按钮网站聆听更多音频 https://t.co/fZ6lzCIxMR");
         }
     }
     autoPlay(){
