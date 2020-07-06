@@ -16,7 +16,7 @@
 
 欢迎参与完善这个并不成熟的项目，或者为我们提出宝贵的意见！
 
-联系方式：[Telegram 群组]()  or Email: `admin@blw.moe`
+联系方式：[Telegram 群组](https://t.me/mikobutton)  or Email: `admin@blw.moe`
 
 请 Fork 本项目进行修改，完成修改后在本项目中发起一个 Pull Request。
 
