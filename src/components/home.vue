@@ -325,11 +325,11 @@ class HomePage extends Vue {
         var title=this.$t("voice."+ tempList.voiceList[this._randomNum(0, tempList.voiceList.length - 1)].name);
         var res=document.getElementById('share').value;
         if(this.$i18n.locale === 'ja-JP'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23ミオかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://t.co/fZ6lzCIxMR");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23みこかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://t.co/fZ6lzCIxMR");
         }else if(this.$i18n.locale === 'en-US'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23ミオかわいい Today，"+res+"'s random audio is "+title+"！ Visit Miko Button Website For More Audio! https://t.co/fZ6lzCIxMR");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23みこかわいい Today，"+res+"'s random audio is "+title+"！ Visit Miko Button Website For More Audio! https://t.co/fZ6lzCIxMR");
         }else {
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23ミオかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问樱按钮网站聆听更多音频 https://t.co/fZ6lzCIxMR");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23みこかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问樱按钮网站聆听更多音频 https://t.co/fZ6lzCIxMR");
         }
     }
     autoPlay(){
