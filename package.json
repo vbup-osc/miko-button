@@ -1,0 +1,39 @@
+{
+  "name": "mio-button",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel": "^6.23.0",
+    "bootstrap": "^3.3.7",
+    "exiftool": "0.0.3",
+    "fibers": "^4.0.2",
+    "hls.js": "^0.13.1",
+    "jquery": "^3.4.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "popper.js": "^1.16.0",
+    "sass": "^1.24.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.1",
+    "vue-i18n": "^8.15.3",
+    "vue-router": "^3.1.5",
+    "vue-slider-component": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.31",
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-eslint": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
