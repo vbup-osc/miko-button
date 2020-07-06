@@ -13,7 +13,7 @@
     <meta name="keywords" content="みこボタン,MIKO BUTTON,樱按钮,hololive,Sakura Miko,さくらみこ,35P,樱巫女,语音按钮,ボイスボタン">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="/favicon.png">
-    <title>みこボタン </title>
+    <title>Nya Hello~ みこボタン</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135455723-6"></script>
     <script>
@@ -21,6 +21,22 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-135455723-6');
+    </script>
+    <script>
+      function TitleChange() {
+        const OriginTitle = document.title;
+        document.addEventListener('visibilitychange', function () {
+          if (document.hidden) {
+            document.title = 'Miko亲，Miko亲，Miko亲，求职~';
+          } else {
+            document.title = 'Elite 工厂！';
+            setTimeout(function () {
+              document.title = OriginTitle;
+            }, 2000);
+          }
+        });
+      }
+      window.onload = TitleChange();
     </script>
   </head>
   <body>
