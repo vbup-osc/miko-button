@@ -1,0 +1,33 @@
+name: Miko-BTN-CI/CD
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Install Dependencies
+      run: npm install
+    - name: Generate Static Site
+      run: npm run build
+        
+    - name: Deploy
+      working-directory: dist
+      run: |
+        git config --global user.email "samuimomijiyuki@qq.com"
+        git config --global user.name "MioButton"
+        git remote set-url origin https://github.com/VoiceButtonUnitedProject/MikoButtonDepot.git
+        git init
+        git add --all
+        git commit -m "Deploy from GitHub: $GITHUB_SHA"
+        git push -u --force https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@github.com/VoiceButtonUnitedProject/MikoButtonDepot.git master:master
+    
