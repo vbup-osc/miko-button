@@ -175,12 +175,12 @@
     transition-property: all;
     transition-duration: 300ms;
     font-size: 20px;
-    padding-top: 14px;
+    padding-top: 16px;
     padding-left: 17px;
     padding-right: 17px;
     font-weight: 600;
-    padding-bottom: 14px;
-    margin-bottom: 12px;
+    padding-bottom: 17px;
+    margin-bottom: 16px;
     max-width: max-content;
 }
 .cate-ctrldft:hover{
