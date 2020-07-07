@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.3.31",
-    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-plugin-eslint": "^4.1.2",
     "@vue/cli-service": "^4.1.2",
     "babel-eslint": "^10.0.3",
