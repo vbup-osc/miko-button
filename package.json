@@ -25,7 +25,7 @@
     "vue-slider-component": "^3.2.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.31",
+    "@types/jquery": "^3.5.0",
     "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-plugin-eslint": "^4.4.6",
     "@vue/cli-service": "^4.4.6",
