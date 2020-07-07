@@ -38,6 +38,20 @@
 
 语音的翻译在 [src/voices.json](src/voices.json) 中。
 
+## 部署本地开发环境
+
+本项目是使用 Vue + jQuery + Bootstrap 3 开发的。
+
+要部署本地开发环境，请首先安装最新版本的 Node 和 Yarn 包管理器。然后，请按照下列步骤操作：
+
+1.Fork 并 Clone 代码到本地。
+
+2.进入代码所在目录，运行 `yarn` 安装依赖。
+
+3.运行 `yarn serve`，启动本地开发服务器，项目将被临时部署在 `localhost:8080` 上。在代码修改过程中，本地开发服务器可以即时更新修改结果。
+
+4.要编译可用于部署的文件，请运行 `yarn build`，这将在 `dist` 目录生成完全静态的文件。编译完成后，您可以直接将整个 `dist` 目录部署至 Github Pages 等静态文件托管服务上。
+
 ## LICENSE
 
 This project is modified based on the [Mio button](https://github.com/VoiceButtonUnitedProject/MioButton).
