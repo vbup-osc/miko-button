@@ -166,7 +166,7 @@
     font-weight: 600;
 }
 .cate-ctrldft{/*控制中心分类标题*/
-    background-image: linear-gradient(to top right,#fd98d0,#fa8bb0);
+    background-image: linear-gradient(to bottom right,#fd98d0,#fa8bb0);
     border-radius: 30px;
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
@@ -213,7 +213,7 @@
     white-space: normal !important;
 }
 .btn-new:active,.btn-new:focus{
-    color: #d2bdc4;
+    color: #000;
     background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
 }
 .btn-new:hover{
