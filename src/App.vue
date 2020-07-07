@@ -107,7 +107,7 @@
     border-top: 0px solid transparent;/*右侧二级菜单顶部边框*/
 }
 .navbar-default .navbar-toggle .icon-bar{ 
-    background: #999999;/*右侧按钮颜色*/
+    background: #ffffff;/*右侧按钮颜色*/
 }
 .dropdown-menu{
     width: 63px;

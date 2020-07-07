@@ -14,7 +14,7 @@
             </div>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:40px;height:auto;margin-left:5px;margin-bottom: 3px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
-                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" v-if="item.ytChannelId === 'UC-hM6YJuNYVAmUWxeIr9FeA'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
+                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" style="color: #fff;" v-if="item.ytChannelId === 'UC-hM6YJuNYVAmUWxeIr9FeA'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
                     <div v-for="live in live_data" :key="live.startTime">
                         <div v-if="live.title.length">
                             <span v-if="live.type === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{ format_time(live.startTime) }}</span>
@@ -68,7 +68,7 @@
 .btn-control-main{
     position: fixed;
     z-index: 2;
-    background-color: rgba(92, 92, 92, 0.774);/*背景颜色*/
+    background-color: #5c5c5c;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -88,7 +88,7 @@
 .btn-control{
     z-index: 1;
     position: fixed;
-    background-color: #000000;/*背景颜色*/
+    background-color: #5c5c5c;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -105,7 +105,7 @@
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
-    background-color:#ff7b7b;
+    background-color:#1f1212;
 }
 .btn-ctrldft{/*今日随机按钮*/
     background-image: linear-gradient(to bottom right,#ff71a1,#fd598d);
