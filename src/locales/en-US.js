@@ -7,7 +7,7 @@ const en_US = {
         subscriber: "Current YouTube Subscribers:",
         audioStaff: "Acknowledgement and Website Info",
         toGithub: "Contact us on GitHub",
-        notOfficial: "This is a fan-made website and is not related to Hololive/Cover Corp. Please notify us for removal if you find any uploaded voice lines violate your copyrights: admin@blw.moe",
+        notOfficial: "This is a fan-made website and is not related to Hololive/Cover Corp. Please notify us for removal if you find any uploaded voice lines violate your copyrights: hello@sakuramiko.org",
         overlapTips: "Voice lines cannot be paused and lots of threads will be created when playing in Overlap Mode. Please refresh the page occasionally."
     },
     action: {
@@ -26,7 +26,7 @@ const en_US = {
         playing: "Now Playing: ",
         noplay: "",
         adtitle: "● Collaborated Projects",
-        plan: "Planned Date",
+        plan: "Planned Date:",
         ing: "Now Streaming"
     },
     lang: {
