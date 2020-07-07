@@ -1075,7 +1075,7 @@
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.4.6.tgz#44b596f0d5236e0a2ce1aa4757bda5207c230be0"
   integrity sha512-Ho0YzUivn8BLPqFoFypntR8CMTEXYYHVr0GdnZW99XL+DbGw75f+tJfnrV9UFHDTfvZt7uewKiXDMlrzQ0l3Ug==
 
-"@vue/cli-service@^4.1.2":
+"@vue/cli-service@^4.4.6":
   version "4.4.6"
   resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-4.4.6.tgz#83ca058d081eb145bbc1ae2fe8069d2d9ddf7e18"
   integrity sha512-k5OFGh2NnvRymCyq9DfBiNJvECUuun3pl5KMm3557IZyA5E5csv+RHoSW3dX8HHe0zXq18g52VswP1llvR9POw==
