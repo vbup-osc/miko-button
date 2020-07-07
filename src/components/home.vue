@@ -51,7 +51,7 @@
 <style lang="scss" scoped>
 .title{
     text-align: left;
-    margin-top: 75px;
+    margin-top: 55px;
     border-radius: 30px;
     font-weight: 900;
     text-align: left;

@@ -45,7 +45,7 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #000000;text-decoration: none">Version 1.0.0</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #000000;text-decoration: none">{{$t("info.version")}}</a></button>
                 <div class="pull-left">
                     <div class="text-left" style="color: #FF592D">{{$t("info.author")}}</div>
                     <div class="text-left" style="color: #666666">{{$t("info.notOfficial")}}</div>
