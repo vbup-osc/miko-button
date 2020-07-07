@@ -130,6 +130,7 @@
 }
 .btn-ctrldft:hover{
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.397);
+    color: #fff;
 }
 .cate-header{/*分类标题*/
     background-image: linear-gradient(to bottom right,#c7379c,#c44499) ;
