@@ -27,7 +27,7 @@ const zh_CN = {
         noplay: "",
         adtitle: "● 联动项目",
         plan: "计划日期：",
-        ing: "正在直播"
+        ing: "正在直播："
     },
     lang: {
         'zh-CN': "简体中文",

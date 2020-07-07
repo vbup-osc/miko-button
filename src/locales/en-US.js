@@ -26,8 +26,8 @@ const en_US = {
         playing: "Now Playing: ",
         noplay: "",
         adtitle: "● Collaborated Projects",
-        plan: "Planned Date:",
-        ing: "Now Streaming"
+        plan: "Planned Date: ",
+        ing: "Now Streaming:"
     },
     lang: {
         'zh-CN': "简体中文",
