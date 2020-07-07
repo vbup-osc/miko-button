@@ -2,12 +2,12 @@ const zh_CN = {
     info: {
         title: "樱按钮",
         info: "信息",
-        author: "樱按钮团队 2020",
+        author: "© 2020 派兹 & 樱按钮团队",
         null: "空",
         subscriber: "当前Youtube订阅数为：",
         audioStaff: "鸣谢名单以及网站相关",
         toGithub: "请在GitHub提出您的宝贵意见",
-        notOfficial: "本站为爱好者作品，和hololive官方没有关联。上传的音频文件若有侵犯您的权益，请立即联系我们删除:hello@sakuramiko.org",
+        notOfficial: "本站为爱好者作品，与 hololive 官方没有任何关联。上传的音频文件若侵犯到您的权益，请立即联系我们删除:hello@sakuramiko.org",
         overlapTips: "叠加播放无法暂停，同时会创建大量线程，建议偶尔刷新页面"
     },
     action: {

@@ -2,7 +2,7 @@ const en_US = {
     info: {
         title: "Miko Button",
         info: "Info",
-        author: "Miko Button Team 2020",
+        author: "© 2020 派兹 & Miko Button Team",
         null: "Null",
         subscriber: "Current YouTube Subscribers:",
         audioStaff: "Acknowledgement and Website Info",

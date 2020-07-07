@@ -45,10 +45,10 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #eeeeee;text-decoration: none">Version 1.0.0</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #000000;text-decoration: none">Version 1.0.0</a></button>
                 <div class="pull-left">
-                    <div class="text-left" style="color: rgba(255, 166, 102);">{{$t("info.author")}}</div>
-                    <div class="text-left">{{$t("info.notOfficial")}}</div>
+                    <div class="text-left" style="color: #FF592D">{{$t("info.author")}}</div>
+                    <div class="text-left" style="color: #666666">{{$t("info.notOfficial")}}</div>
                     <div class="text-left"><a href="https://voicebuttonunitedproject.github.io/MikoButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
                     <div class="text-left"><a href="https://github.com/VoiceButtonUnitedProject/MikoButton" target="_blank">{{$t("info.toGithub")}}</a></div>
                 </div>
@@ -70,7 +70,7 @@
 .btn-buttom-info {
     color: #fff;
     font-size: 12px;
-    background-color: rgb(0, 214, 0);
+    background-color: #1dd13e;
     border-radius: 5px;
 }
 .btn-buttom-info:hover {
@@ -170,7 +170,7 @@
     width: 100%;
     height: 100%;
     min-height: 60px;
-    background-color: #222222;
+    background-color: #d3bdcc;
 }
 .footer-content {
     padding-top: 10px;
@@ -211,4 +211,3 @@ class App extends Vue {
 
 export default App;
 </script>
-
