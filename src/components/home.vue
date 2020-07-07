@@ -55,20 +55,20 @@
     border-radius: 30px;
     font-weight: 900;
     text-align: left;
-    color: #fff;    
-    text-shadow:rgba(0, 0, 0, 0.308) 5px 6px 10px;
+    color: #ff47b8;
+    text-shadow:#fa9595 2px 2px 6px;
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 30px;
     max-width: max-content;
 }
 .btn:hover, .btn:active, .btn.focus{
-    color: #ffffff;
+    color: #303030;
 }
 .btn-control-main{
     position: fixed;
     z-index: 2;
-    background-color: #ff7b7bc2;/*背景颜色*/
+    background-color: rgba(92, 92, 92, 0.774);/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -83,13 +83,12 @@
     text-align: center;
 }
 .btn-control-main:hover,.btn-control:focus{
-    background-color:#ff7b7be5;    
-
+    background-color:#1f1212;    
 }
 .btn-control{
     z-index: 1;
     position: fixed;
-    background-color: #ff7b7bc2;/*背景颜色*/
+    background-color: #000000;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -106,10 +105,10 @@
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
-    background-color:#ff7b7be5
+    background-color:#ff7b7b;
 }
 .btn-ctrldft{/*今日随机按钮*/
-    background-image: linear-gradient(to bottom right,rgb(255, 184, 184),rgb(255, 156, 156)) ;
+    background-image: linear-gradient(to bottom right,#ff71a1,#fd598d);
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     padding-top: 3px;
@@ -126,14 +125,14 @@
     white-space: normal !important;
 }
 .btn-ctrldft:active,.btn-ctrldft:focus{/*宣传中心按钮选定*/
-    background-image: linear-gradient(to top left,rgb(255, 184, 184),rgb(255, 156, 156)) ;
+    background-image: linear-gradient(to top left,#ff8c8c,#f88282) ;
     color: rgb(255, 228, 228);
 }
 .btn-ctrldft:hover{
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.397);
 }
 .cate-header{/*分类标题*/
-    background-image: linear-gradient(to bottom right,rgb(78, 78, 78),rgb(58, 58, 58)) ;
+    background-image: linear-gradient(to bottom right,#c7379c,#c44499) ;
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
     border-radius: 30px;
     text-align: left;
@@ -152,7 +151,7 @@
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .btn-body-status{/*播放状态分类标题*/
-    background-color: #585858d8;
+    background-color: #585858;
     border-radius: 150px;
     color: #fff;
     text-align: center;
@@ -166,7 +165,7 @@
     font-weight: 600;
 }
 .cate-ctrldft{/*控制中心分类标题*/
-    background-image: linear-gradient(to bottom right,rgb(255, 153, 153),rgb(255, 125, 125));
+    background-image: linear-gradient(to top right,#fd98d0,#fa8bb0);
     border-radius: 30px;
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
@@ -199,8 +198,8 @@
     margin: 5px;
 }
 .btn-new {
-    color: #fff;
-    background-image: linear-gradient(to bottom right,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
+    color: #000;
+    background-image: linear-gradient(to bottom right,#fda6c2,#fda3c0);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
     border: 0px;
@@ -213,7 +212,7 @@
     white-space: normal !important;
 }
 .btn-new:active,.btn-new:focus{
-    color: rgb(255, 204, 204);
+    color: #d2bdc4;
     background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
 }
 .btn-new:hover{
@@ -223,6 +222,9 @@
     display: inline-block;
     vertical-align: middle;
     margin: 0;
+}
+input::-webkit-input-placeholder{
+    color:#c5c5c5;
 }
 </style>
 

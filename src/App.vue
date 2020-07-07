@@ -61,7 +61,7 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 .main-content{ /*内容部分*/
     min-height: 100vh;
-    background-color: #333333;
+    background-image: linear-gradient(to bottom right,#f3e2ff,#ffdbe5);
 }
 .btn-buttom{
     border: 0px;
