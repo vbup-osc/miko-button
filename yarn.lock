@@ -7195,10 +7195,10 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass-loader@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.1.tgz#8ae96ebb0e9debc3748064d32e43596719814c40"
-  integrity sha512-wXFo2VAAzAUsUApOXr5PkGXDa1ad20RYhdJTubopY04i+Suk8b8g3Vtobu3kfMk48S0n5rQyAQeGBdg8WzL8gA==
+sass-loader@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.2.tgz#847c9b4c95328ddc8c7d35cf28c9d6e54e59a90b"
+  integrity sha512-nphcum3jNI442njnrZ5wJgSNX5lfEOHOKHCLf+PrTIaleploKqAMUuT9CVKjf+lyi6c2MCGPHh1vb9nGsjnZJA==
   dependencies:
     klona "^1.1.1"
     loader-utils "^2.0.0"
@@ -8432,10 +8432,10 @@ vue-router@^3.1.5:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.3.4.tgz#4e38abc34a11c41b6c3d8244449a2e363ba6250b"
   integrity sha512-SdKRBeoXUjaZ9R/8AyxsdTqkOfMcI5tWxPZOUX5Ie1BTL5rPSZ0O++pbiZCeYeythiZIdLEfkDiQPKIaWk5hDg==
 
-vue-slider-component@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-3.2.0.tgz#cee72f362236c61df45348167ed1101668be75e7"
-  integrity sha512-kWJD0sk2t6DMBANnuFnhqCim57gnfzUezdTFz+/2BuEiFhpYoipkRWUnb4EI2HI14fdR8LWUmD58/Wa3JHOhCw==
+vue-slider-component@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-3.2.2.tgz#9803f357a12996fb3b81e5c1ad49f71af2858200"
+  integrity sha512-Nxz5UYemwfpsFsv98yQuI4+XyMNtMYwFgW5Ue9i/w+ArSs/Ow7LJuixD6Tf/Lpnc2NUuMN+AwxZCE4FapxElCA==
   dependencies:
     core-js "^3.6.5"
     vue-property-decorator "^8.0.0"
