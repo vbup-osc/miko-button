@@ -170,7 +170,7 @@
     width: 100%;
     height: 100%;
     min-height: 60px;
-    background-color: #d3bdcc;
+    background-color: #d8c8df;
 }
 .footer-content {
     padding-top: 10px;
