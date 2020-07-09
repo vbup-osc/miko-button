@@ -22,7 +22,7 @@
     "vue-class-component": "^7.2.1",
     "vue-i18n": "^8.15.3",
     "vue-router": "^3.1.5",
-    "vue-slider-component": "^3.2.0"
+    "vue-slider-component": "^3.2.2"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.0",
