@@ -55,8 +55,8 @@
     border-radius: 30px;
     font-weight: 900;
     text-align: left;
-    color: #ff47b8;
-    text-shadow:#fa9595 2px 2px 6px;
+    color: #ff75af;
+    text-shadow:#fa9595 2px 2px 4px;
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -68,7 +68,7 @@
 .btn-control-main{
     position: fixed;
     z-index: 2;
-    background-color: #5c5c5c;/*背景颜色*/
+    background-color: rgba(34, 34, 34, 0.5);;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -88,7 +88,7 @@
 .btn-control{
     z-index: 1;
     position: fixed;
-    background-color: #5c5c5c;/*背景颜色*/
+    background-color: rgba(34, 34, 34, 0.5);;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
