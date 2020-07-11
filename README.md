@@ -18,7 +18,7 @@
 
 联系方式：[Telegram 群组](https://t.me/mikobutton)  or Email: `hello@sakuramiko.org`
 
-请 Fork 本项目进行修改，完成修改后在本项目中发起一个 Pull Request。
+如有意完善此项目，请 Fork 本项目进行修改，完成修改后在本项目中发起一个 Pull Request。
 
 ### 添加或修改音频
 
@@ -31,6 +31,8 @@
 由于本项目采用强缓存策略，除 `index.html` 外，文件名一致的文件，即使做出修改也 **永远** 不会被客户端刷新。因此新添加的音频，无论是新增还是修改，文件名都 **必须** 和之前任何文件名不同。
 
 修改音频之后请删除原音频文件。
+
+**推荐使用 [voices.json 编辑工具](https://aka.blw.moe/voiceditor) 进行编辑。**
 
 ### 参与翻译
 
@@ -63,6 +65,10 @@ This project is modified based on the [Mio button](https://github.com/VoiceButto
 本项目为爱好者作品，与 hololive 官方没有关联。
 
 ## 特别感谢
+
+#### 音频资源由赌鬼巫女保护协会提供。
+
+[他们的 Bilibili 频道](https://space.bilibili.com/487446531)
 
 [![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://vercel.com)
 
