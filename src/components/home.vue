@@ -55,8 +55,8 @@
     border-radius: 30px;
     font-weight: 900;
     text-align: left;
-    color: #ff75af;
-    text-shadow:#fa9595 2px 2px 4px;
+    color: #ff7db3;
+    text-shadow:#fa9595b7 2px 2px 4px;
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -68,7 +68,7 @@
 .btn-control-main{
     position: fixed;
     z-index: 2;
-    background-color: rgba(34, 34, 34, 0.5);;/*背景颜色*/
+    background-color: rgba(243, 164, 164, 0.7);/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -83,12 +83,12 @@
     text-align: center;
 }
 .btn-control-main:hover,.btn-control:focus{
-    background-color:#1f1212;    
+    background-color:rgba(243, 164, 164, 0.85);    
 }
 .btn-control{
     z-index: 1;
     position: fixed;
-    background-color: rgba(34, 34, 34, 0.5);;/*背景颜色*/
+    background-color: rgba(243, 164, 164, 0.7);/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -105,7 +105,7 @@
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
-    background-color:#1f1212;
+    background-color:rgba(243, 164, 164, 0.85);
 }
 .btn-ctrldft{/*今日随机按钮*/
     background-image: linear-gradient(to bottom right,#ff71a1,#fd598d);
@@ -133,8 +133,8 @@
     color: #fff;
 }
 .cate-header{/*分类标题*/
-    background-image: linear-gradient(to bottom right,#c7379c,#c44499) ;
-    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
+    background-image: linear-gradient(to bottom right,#ff71a1,#fd598d) ;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.151);
     border-radius: 30px;
     text-align: left;
     text-shadow:rgba(0, 0, 0, 0.2) 5px 6px 10px;
@@ -149,7 +149,7 @@
     margin-bottom: 12px;
 }
 .cate-header:hover{
-    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 7px 10px 0px rgba(0, 0, 0, 0.219);
 }
 .btn-body-status{/*播放状态分类标题*/
     background-color: #585858;
@@ -166,11 +166,11 @@
     font-weight: 600;
 }
 .cate-ctrldft{/*控制中心分类标题*/
-    background-image: linear-gradient(to bottom right,#fd98d0,#fa8bb0);
+    background-image: linear-gradient(to bottom right,#ffafdb,#ff9bbc);
     border-radius: 30px;
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
-    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.151);
     color: #fff;
     transition-property: all;
     transition-duration: 300ms;
@@ -184,7 +184,7 @@
     max-width: max-content;
 }
 .cate-ctrldft:hover{
-    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 7px 10px 0px rgba(0, 0, 0, 0.219);
 }
 .cate-body{
     margin-top: 12px;
@@ -199,9 +199,9 @@
     margin: 5px;
 }
 .btn-new {
-    color: #000;
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom right,#fda6c2,#fda3c0);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
     border-radius: 15px;
     border: 0px;
     max-width: 100%;
@@ -213,11 +213,12 @@
     white-space: normal !important;
 }
 .btn-new:active,.btn-new:focus{
-    color: #000;
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
 }
 .btn-new:hover{
-   box-shadow: 0px 0px 5px 5px rgba(252, 120, 120, 0.322);
+    color:#fff;
+    box-shadow: 0px 0px 5px 5px rgba(255, 214, 214, 0.493);
 }
 .checkbox {
     display: inline-block;
@@ -288,12 +289,6 @@ class HomePage extends Vue {
             this.live_data_loading = false;
         })
     }
-    format_time(){
-        var ts = arguments[0] || 0;
-        var t,y,m,d,h,i,s;
-        t = ts ? new Date(ts*1000) : new Date();y = t.getFullYear();m = t.getMonth()+1;d = t.getDate();h = t.getHours();i = t.getMinutes();s = t.getSeconds();
-        return y+'-'+(m<10?'0'+m:m)+'-'+(d<10?'0'+d:d)+' '+(h<10?'0'+h:h)+':'+(i<10?'0'+i:i)+':'+(s<10?'0'+s:s);
-    }
     play(item){
         if (this.overlapCheck) {
             let audio = new Audio("voices/" + item.path);
@@ -328,11 +323,11 @@ class HomePage extends Vue {
         var title=this.$t("voice."+ tempList.voiceList[this._randomNum(0, tempList.voiceList.length - 1)].name);
         var res=document.getElementById('share').value;
         if(this.$i18n.locale === 'ja-JP'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23みこかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://t.co/fZ6lzCIxMR");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://sakuramiko.org");
         }else if(this.$i18n.locale === 'en-US'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23みこかわいい Today，"+res+"'s random audio is "+title+"！ Visit Miko Button Website For More Audio! https://t.co/fZ6lzCIxMR");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ Today，"+res+"'s random audio is "+title+"！ Visit Miko Button Website For More Audio! https://sakuramiko.org");
         }else {
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23みこかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问樱按钮网站聆听更多音频 https://t.co/fZ6lzCIxMR");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ 今天，“"+res+"”的随机音频是“"+title+"”！ 访问樱按钮网站聆听更多音频 https://sakuramiko.org");
         }
     }
     autoPlay(){

@@ -45,10 +45,10 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #000000;text-decoration: none">{{$t("info.version")}}</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #ffffff;text-decoration: none">{{$t("info.version")}}</a></button>
                 <div class="pull-left">
-                    <div class="text-left" style="color: #FF592D">{{$t("info.author")}}</div>
-                    <div class="text-left" style="color: #666666">{{$t("info.notOfficial")}}</div>
+                    <div class="text-left" style="color: #F867a4">{{$t("info.author")}}</div>
+                    <div class="text-left" style="color: #b5909f">{{$t("info.notOfficial")}}</div>
                     <div class="text-left"><a href="https://voicebuttonunitedproject.github.io/MikoButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
                     <div class="text-left"><a href="https://github.com/VoiceButtonUnitedProject/MikoButton" target="_blank">{{$t("info.toGithub")}}</a></div>
                 </div>
@@ -68,26 +68,26 @@
     padding: 1px 10px;
 }
 .btn-buttom-info {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 12px;
-    background-color: #1dd13e;
+    background-color: #ff9797;
     border-radius: 5px;
 }
 .btn-buttom-info:hover {
     color: #fff;
     font-size: 12px;
-    background-color: rgb(4, 163, 4);
+    background-color: #ec8c8c;
     border-radius: 5px;
 }
 .btn-buttom-info:focus {
     color: #fff;
     font-size: 12px;
-    background-color: rgb(4, 163, 4);
+    background-color: #ec8c8c;
     border-radius: 5px;
 }
 .navbar{ 
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.151);
-    background-color: rgba(34, 34, 34, 0.5);/*顶栏部分*/
+    background-color: rgba(202, 141, 141, 0.384);/*顶栏部分*/
     margin: 15px;
 }
 .navbar-fixed-top{ 
@@ -170,7 +170,7 @@
     width: 100%;
     height: 100%;
     min-height: 60px;
-    background-color: #d8c8df;
+    background-color: #ecbcc9;
 }
 .footer-content {
     padding-top: 10px;
