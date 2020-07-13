@@ -48,7 +48,7 @@
                 <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #ffffff;text-decoration: none">{{$t("info.version")}}</a></button>
                 <div class="pull-left">
                     <div class="text-left" style="color: #F867a4">{{$t("info.author")}}</div>
-                    <div class="text-left" style="color: #b5909f">{{$t("info.notOfficial")}}</div>
+                    <div class="text-left" style="color: #a27e8d">{{$t("info.notOfficial")}}</div>
                     <div class="text-left"><a href="https://voicebuttonunitedproject.github.io/MikoButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
                     <div class="text-left"><a href="https://github.com/VoiceButtonUnitedProject/MikoButton" target="_blank">{{$t("info.toGithub")}}</a></div>
                 </div>

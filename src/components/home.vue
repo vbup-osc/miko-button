@@ -68,7 +68,7 @@
 .btn-control-main{
     position: fixed;
     z-index: 2;
-    background-color: rgba(243, 164, 164, 0.7);/*背景颜色*/
+    background-color: rgba(255, 156, 156, 0.70);/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -83,12 +83,12 @@
     text-align: center;
 }
 .btn-control-main:hover,.btn-control:focus{
-    background-color:rgba(243, 164, 164, 0.85);    
+    background-color:rgb(255, 156, 156);    
 }
 .btn-control{
     z-index: 1;
     position: fixed;
-    background-color: rgba(243, 164, 164, 0.7);/*背景颜色*/
+    background-color: rgba(255, 156, 156, 0.70);/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -105,7 +105,7 @@
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
-    background-color:rgba(243, 164, 164, 0.85);
+    background-color:rgba(255, 156, 156);
 }
 .btn-ctrldft{/*今日随机按钮*/
     background-image: linear-gradient(to bottom right,#ff71a1,#fd598d);
