@@ -4225,10 +4225,10 @@ highlight.js@^9.6.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
   integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
 
-hls.js@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.0.tgz#a815553f206685137bf4a2533cd87ff358a87aa3"
-  integrity sha512-PHQJ7gJpkRkOlufn9z2ID+V93HgJQahhsHr8rCcRS0q2XuUBdidAHeYsWeVYvZ73ZILVDN0EYVBvHZM1g2zZUA==
+hls.js@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.1.tgz#97a276831fbcda1655235473a6f014de5eef947e"
+  integrity sha512-q557XhlCAqcxHPfv4QdD0loKtW4suMrFPYrJkHQpn1wlau2lyJdl5FIuWRnPGtWdY7GAmqNrS3FPCU+QJ58gzA==
   dependencies:
     eventemitter3 "^4.0.3"
     url-toolkit "^2.1.6"
