@@ -13,7 +13,7 @@
     "bootstrap": "^3.3.7",
     "exiftool": "0.0.3",
     "fibers": "^5.0.0",
-    "hls.js": "^0.14.0",
+    "hls.js": "^0.14.1",
     "jquery": "^3.4.1",
     "jsencrypt": "^3.0.0-rc.1",
     "popper.js": "^1.16.0",
