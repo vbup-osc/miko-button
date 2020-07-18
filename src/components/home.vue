@@ -14,7 +14,7 @@
             </div>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:40px;height:auto;margin-left:5px;margin-bottom: 3px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
-                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" style="color: #fff;" v-if="item.ytChannelId === 'UC-hM6YJuNYVAmUWxeIr9FeA'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
+                    <div v-for="(item) in youtubeData.channels" :key="item.yt_channel_id"><button class="btn btn-ctrldft" v-if="item.yt_channel_id === 'UC-hM6YJuNYVAmUWxeIr9FeA'">{{$t('info.subscriber')}}{{item.subscriber_count}}</button></div>
                     <div v-for="live in live_data" :key="live.live_schedule">
                         <div v-if="live.title.length">
                             <span v-if="live.status === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{new Date(live.live_schedule).toLocaleString()}}</span>
@@ -262,7 +262,7 @@ class HomePage extends Vue {
         this.youtube()
     }
     youtube() {
-        axios.get('https://api.jetri.co/vtubers')
+        axios.get('https://api.holotools.app/v1/channels?limit=50')
         .then(response => {
         this.youtubeData = response.data
         })
