@@ -1,32 +1,564 @@
-﻿{
-    "voices": [
+{
+  "voices": [
+    {
+      "categoryName": "daily",
+      "categoryDescription": {
+        "zh-CN": "▌日常",
+        "ja-JP": "▌日常",
+        "en-US": "▌Daily"
+      },
+      "voiceList": [
         {
-            "categoryName": "test",
-            "categoryDescription": {
-                "zh-CN": "待补全",
-                "ja-JP": "テスト",
-                "en-US": "Test"
-            },
-            "voiceList": [
-                {
-                    "name": "test",
-                    "path": "test.mp3",
-                    "description": {
-                        "zh-CN": "待补全",
-                        "ja-JP": "テスト",
-                        "en-US": "Test"
-                    }
-                },
-                {
-                    "name": "welcome",
-                    "path": "welcome.mp3",
-                    "description": {
-                        "zh-CN": "欢迎提供各种音频资源",
-                        "ja-JP": "リソースの提供へようこそ",
-                        "en-US": "Welcome to provide resources"
-                    }
-                }
-            ]
+          "name": "miko-daily-001",
+          "path": "miko-daily-001.mp3",
+          "description": {
+            "zh-CN": "谢谢你 谢谢你了",
+            "ja-JP": "thank you ありがと",
+            "en-US": "thank you ありがと"
+          }
+        },
+        {
+          "name": "miko-daily-002",
+          "path": "miko-daily-002.mp3",
+          "description": {
+            "zh-CN": "笨蛋 狗屎",
+            "ja-JP": "ばか うんち",
+            "en-US": "ばか うんち"
+          }
+        },
+        {
+          "name": "miko-daily-003",
+          "path": "miko-daily-003.mp3",
+          "description": {
+            "zh-CN": "笨蛋 帮大忙了",
+            "ja-JP": "ばか 助かる",
+            "en-US": "ばか 助かる"
+          }
+        },
+        {
+          "name": "miko-daily-004",
+          "path": "miko-daily-004.mp3",
+          "description": {
+            "zh-CN": "可恶！！！",
+            "ja-JP": "くそ！！！",
+            "en-US": "くそ！！！"
+          }
+        },
+        {
+          "name": "miko-daily-005",
+          "path": "miko-daily-005.mp3",
+          "description": {
+            "zh-CN": "太好了~",
+            "ja-JP": "Nice~",
+            "en-US": "Nice~"
+          }
+        },
+        {
+          "name": "miko-daily-006",
+          "path": "miko-daily-006.mp3",
+          "description": {
+            "zh-CN": "呀呼~好危险",
+            "ja-JP": "やふ～あはぶね",
+            "en-US": "やふ～あはぶね"
+          }
+        },
+        {
+          "name": "miko-daily-007",
+          "path": "miko-daily-007.mp3",
+          "description": {
+            "zh-CN": "笨蛋笨蛋噗噗噗",
+            "ja-JP": "ばが！ばがだねっこいつ！ぶぶ",
+            "en-US": "ばが！ばがだねっこいつ！ぶぶ"
+          }
+        },
+        {
+          "name": "miko-daily-008",
+          "path": "miko-daily-008.mp3",
+          "description": {
+            "zh-CN": "成了啊 啊啊啊",
+            "ja-JP": "やっだ！あ～",
+            "en-US": "やっだ！あ～"
+          }
+        },
+        {
+          "name": "miko-daily-009",
+          "path": "miko-daily-009.mp3",
+          "description": {
+            "zh-CN": "对不起 嘤",
+            "ja-JP": "ごめんなさい~い！",
+            "en-US": "ごめんなさい~い！"
+          }
+        },
+        {
+          "name": "miko-daily-010",
+          "path": "miko-daily-010.mp3",
+          "description": {
+            "zh-CN": "感人捏",
+            "ja-JP": "えっもいね",
+            "en-US": "えっもいね"
+          }
+        },
+        {
+          "name": "miko-daily-011",
+          "path": "miko-daily-011.mp3",
+          "description": {
+            "zh-CN": "感谢 wowowo",
+            "ja-JP": "ありがど、を～",
+            "en-US": "ありがど、を～"
+          }
+        },
+        {
+          "name": "miko-daily-012",
+          "path": "miko-daily-012.mp3",
+          "description": {
+            "zh-CN": "呐！刚刚是卡了！",
+            "ja-JP": "ね！今のはじゅは、今のはもーらっくてた",
+            "en-US": "ね！今のはじゅは、今のはもーらっくてた"
+          }
+        },
+        {
+          "name": "miko-daily-013",
+          "path": "miko-daily-013.mp3",
+          "description": {
+            "zh-CN": "好可怕！请不要酱紫",
+            "ja-JP": "や！怖い、怖い、やめてくたさい！",
+            "en-US": "や！怖い、怖い、やめてくたさい！"
+          }
+        },
+        {
+          "name": "miko-daily-014",
+          "path": "miko-daily-014.mp3",
+          "description": {
+            "zh-CN": "可恶的35p",
+            "ja-JP": "くそが！35p",
+            "en-US": "くそが！35p"
+          }
+        },
+        {
+          "name": "miko-daily-015",
+          "path": "miko-daily-015.mp3",
+          "description": {
+            "zh-CN": "好恐怖啊",
+            "ja-JP": "怖い、もー",
+            "en-US": "怖い、もー"
+          }
+        },
+        {
+          "name": "miko-daily-016",
+          "path": "miko-daily-016.mp3",
+          "description": {
+            "zh-CN": "来啊！正面上我啊！",
+            "ja-JP": "いっよ！こいっよ",
+            "en-US": "いっよ！こいっよ"
+          }
+        },
+        {
+          "name": "miko-daily-017",
+          "path": "miko-daily-017.mp3",
+          "description": {
+            "zh-CN": "呐！为什么！moooo",
+            "ja-JP": "ね！何で！もー",
+            "en-US": "ね！何で！もー"
+          }
+        },
+        {
+          "name": "miko-daily-018",
+          "path": "miko-daily-018.mp3",
+          "description": {
+            "zh-CN": "塔诺西",
+            "ja-JP": "楽しい",
+            "en-US": "楽しい"
+          }
+        },
+        {
+          "name": "miko-daily-019",
+          "path": "miko-daily-019.mp3",
+          "description": {
+            "zh-CN": "呜~哦~啊~这不是35p吗！mooo~",
+            "ja-JP": "うお～あ～35ｐやんっけ！もー！うぎゃ～",
+            "en-US": "うお～あ～35ｐやんっけ！もー！うぎゃ～"
+          }
+        },
+        {
+          "name": "miko-daily-020",
+          "path": "miko-daily-020.mp3",
+          "description": {
+            "zh-CN": "无路赛 baka",
+            "ja-JP": "うるせ！ばが！",
+            "en-US": "うるせ！ばが！"
+          }
+        },
+        {
+          "name": "miko-daily-021",
+          "path": "miko-daily-021.mp3",
+          "description": {
+            "zh-CN": "是35p啊！你居然是35p",
+            "ja-JP": "35pがおまい、おまい35pだとが",
+            "en-US": "35pがおまい、おまい35pだとが"
+          }
+        },
+        {
+          "name": "miko-daily-022",
+          "path": "miko-daily-022.mp3",
+          "description": {
+            "zh-CN": "再来一次",
+            "ja-JP": "もう一回",
+            "en-US": "もう一回"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "categoryName": "modal",
+      "categoryDescription": {
+        "zh-CN": "▌语气词",
+        "ja-JP": "▌モーダル",
+        "en-US": "▌Modal"
+      },
+      "voiceList": [
+        {
+          "name": "miko-modal-001",
+          "path": "miko-modal-001.mp3",
+          "description": {
+            "zh-CN": "猪叫",
+            "ja-JP": "ぶひんーぶひんー",
+            "en-US": "ぶひんーぶひんー"
+          }
+        },
+        {
+          "name": "miko-modal-002",
+          "path": "miko-modal-002.mp3",
+          "description": {
+            "zh-CN": "怪叫",
+            "ja-JP": "ぶんーぶんーぶんー",
+            "en-US": "ぶんーぶんーぶんー"
+          }
+        },
+        {
+          "name": "miko-modal-003",
+          "path": "miko-modal-003.mp3",
+          "description": {
+            "zh-CN": "喵！嘤嘤嘤",
+            "ja-JP": "にゃ～～は～～",
+            "en-US": "Nya～~Ha～～"
+          }
+        },
+        {
+          "name": "miko-modal-004",
+          "path": "miko-modal-004.mp3",
+          "description": {
+            "zh-CN": "哇欧 哇欧",
+            "ja-JP": "wow wow",
+            "en-US": "wow wow"
+          }
+        },
+        {
+          "name": "miko-modal-005",
+          "path": "miko-modal-005.mp3",
+          "description": {
+            "zh-CN": "太好了！",
+            "ja-JP": "yeah！",
+            "en-US": "yeah！"
+          }
+        },
+        {
+          "name": "miko-modal-006",
+          "path": "miko-modal-006.mp3",
+          "description": {
+            "zh-CN": "太好了！2",
+            "ja-JP": "yeah！2",
+            "en-US": "yeah！2"
+          }
+        },
+        {
+          "name": "miko-modal-007",
+          "path": "miko-modal-007.mp3",
+          "description": {
+            "zh-CN": "啊！（敲桌子）",
+            "ja-JP": "あ！",
+            "en-US": "あ！"
+          }
+        },
+        {
+          "name": "miko-modal-008",
+          "path": "miko-modal-008.mp3",
+          "description": {
+            "zh-CN": "啊哈哈哈",
+            "ja-JP": "あはあ～",
+            "en-US": "あはあ～"
+          }
+        },
+        {
+          "name": "miko-modal-009",
+          "path": "miko-modal-009.mp3",
+          "description": {
+            "zh-CN": "嘎 嘎",
+            "ja-JP": "あ、が～",
+            "en-US": "あ、が～"
+          }
+        },
+        {
+          "name": "miko-modal-010",
+          "path": "miko-modal-010.mp3",
+          "description": {
+            "zh-CN": "哈↑哈↑哈↑",
+            "ja-JP": "はあ↑ はあ↑ はあ↑",
+            "en-US": "HA ↑ HA ↑ HA ↑"
+          }
+        },
+        {
+          "name": "miko-modal-011",
+          "path": "miko-modal-011.mp3",
+          "description": {
+            "zh-CN": "嚯嚯嚯（怪叫）",
+            "ja-JP": "ほ～",
+            "en-US": "ほ～"
+          }
+        },
+        {
+          "name": "miko-modal-012",
+          "path": "miko-modal-012.mp3",
+          "description": {
+            "zh-CN": "嘤嘤嘤",
+            "ja-JP": "じじじじじじ",
+            "en-US": "じじじじじじ"
+          }
+        },
+        {
+          "name": "miko-modal-013",
+          "path": "miko-modal-013.mp3",
+          "description": {
+            "zh-CN": "啾啾啾啾",
+            "ja-JP": "じゅ～じゅ～",
+            "en-US": "じゅ～じゅ～"
+          }
+        },
+        {
+          "name": "miko-modal-014",
+          "path": "miko-modal-014.mp3",
+          "description": {
+            "zh-CN": "龙 嘤",
+            "ja-JP": "(´ ; ω ;｀) やだやだ！",
+            "en-US": "(´ ; ω ;｀) やだやだ！"
+          }
+        },
+        {
+          "name": "miko-modal-015",
+          "path": "miko-modal-015.mp3",
+          "description": {
+            "zh-CN": "龙鸣",
+            "ja-JP": "い！いえうはあ～",
+            "en-US": "い！いえうはあ～"
+          }
+        },
+        {
+          "name": "miko-modal-016",
+          "path": "miko-modal-016.mp3",
+          "description": {
+            "zh-CN": "龙鸣2",
+            "ja-JP": "はあ～",
+            "en-US": "はあ～"
+          }
+        },
+        {
+          "name": "miko-modal-017",
+          "path": "miko-modal-017.mp3",
+          "description": {
+            "zh-CN": "龙鸣3",
+            "ja-JP": "やふはあへ～あ～",
+            "en-US": "やふはあへ～あ～"
+          }
+        },
+        {
+          "name": "miko-modal-018",
+          "path": "miko-modal-018.mp3",
+          "description": {
+            "zh-CN": "龙鸣4",
+            "ja-JP": "え～",
+            "en-US": "え～"
+          }
+        },
+        {
+          "name": "miko-modal-019",
+          "path": "miko-modal-019.mp3",
+          "description": {
+            "zh-CN": "龙鸣二连",
+            "ja-JP": "いや！いや！",
+            "en-US": "いや！いや！"
+          }
+        },
+        {
+          "name": "miko-modal-020",
+          "path": "miko-modal-020.mp3",
+          "description": {
+            "zh-CN": "龙之呼吸",
+            "ja-JP": "ドラゴンの息",
+            "en-US": "ドラゴンの息"
+          }
+        },
+        {
+          "name": "miko-modal-021",
+          "path": "miko-modal-021.mp3",
+          "description": {
+            "zh-CN": "喵哈哈哈",
+            "ja-JP": "にゃははは",
+            "en-US": "にゃははは"
+          }
+        },
+        {
+          "name": "miko-modal-022",
+          "path": "miko-modal-022.mp3",
+          "description": {
+            "zh-CN": "喵呜",
+            "ja-JP": "にゃう",
+            "en-US": "にゃう"
+          }
+        },
+        {
+          "name": "miko-modal-023",
+          "path": "miko-modal-023.mp3",
+          "description": {
+            "zh-CN": "蘑菇蘑菇 阿姆阿姆",
+            "ja-JP": "もぐ～あむあ～",
+            "en-US": "もぐ～あむあ～"
+          }
+        },
+        {
+          "name": "miko-modal-024",
+          "path": "miko-modal-024.mp3",
+          "description": {
+            "zh-CN": "噗噗噗 噗噗噗",
+            "ja-JP": "ぶ～",
+            "en-US": "ぶ～"
+          }
+        },
+        {
+          "name": "miko-modal-025",
+          "path": "miko-modal-025.mp3",
+          "description": {
+            "zh-CN": "噗噗噗噗噗（嚣张）",
+            "ja-JP": "ぶぶぶぶ",
+            "en-US": "ぶぶぶぶ"
+          }
+        },
+        {
+          "name": "miko-modal-026",
+          "path": "miko-modal-026.mp3",
+          "description": {
+            "zh-CN": "生气怪叫",
+            "ja-JP": "怒り",
+            "en-US": "怒り"
+          }
+        },
+        {
+          "name": "miko-modal-027",
+          "path": "miko-modal-027.mp3",
+          "description": {
+            "zh-CN": "哇啊啊",
+            "ja-JP": "うわあ～",
+            "en-US": "うわあ～"
+          }
+        },
+        {
+          "name": "miko-modal-028",
+          "path": "miko-modal-028.mp3",
+          "description": {
+            "zh-CN": "呜喵！",
+            "ja-JP": "うにゃ！",
+            "en-US": "うにゃ！"
+          }
+        },
+        {
+          "name": "miko-modal-029",
+          "path": "miko-modal-029.mp3",
+          "description": {
+            "zh-CN": "唔诶诶",
+            "ja-JP": "うえ～",
+            "en-US": "うえ～"
+          }
+        },
+        {
+          "name": "miko-modal-030",
+          "path": "miko-modal-030.mp3",
+          "description": {
+            "zh-CN": "嚣张怪叫1",
+            "ja-JP": "いえぜ～ぜん～",
+            "en-US": "いえぜ～ぜん～"
+          }
+        },
+        {
+          "name": "miko-modal-031",
+          "path": "miko-modal-031.mp3",
+          "description": {
+            "zh-CN": "嚣张怪叫2",
+            "ja-JP": "じゃ～なた～な！",
+            "en-US": "じゃ～なた～な！"
+          }
+        },
+        {
+          "name": "miko-modal-032",
+          "path": "miko-modal-032.mp3",
+          "description": {
+            "zh-CN": "嚣张一转道歉",
+            "ja-JP": "いやは～すみません～",
+            "en-US": "いやは～すみません～"
+          }
+        },
+        {
+          "name": "miko-modal-033",
+          "path": "miko-modal-033.mp3",
+          "description": {
+            "zh-CN": "呀！！！！！",
+            "ja-JP": "や！！！！！ ",
+            "en-US": "や！！！！！ "
+          }
+        },
+        {
+          "name": "miko-modal-034",
+          "path": "miko-modal-034.mp3",
+          "description": {
+            "zh-CN": "不要嘛！不要嘛！",
+            "ja-JP": "やだ！やだ！やだ！",
+            "en-US": "やだ！やだ！やだ！"
+          }
+        },
+        {
+          "name": "miko-modal-035",
+          "path": "miko-modal-035.mp3",
+          "description": {
+            "zh-CN": "咿嘿嘿嘿",
+            "ja-JP": "いへへへ～",
+            "en-US": "いへへへ～"
+          }
+        },
+        {
+          "name": "miko-modal-036",
+          "path": "miko-modal-036.mp3",
+          "description": {
+            "zh-CN": "噫 噫！",
+            "ja-JP": "い～え！！！！",
+            "en-US": "い～え！！！！"
+          }
+        },
+        {
+          "name": "miko-modal-037",
+          "path": "miko-modal-037.mp3",
+          "description": {
+            "zh-CN": "嘤~啪",
+            "ja-JP": "いん～ば！",
+            "en-US": "いん～ば！"
+          }
+        },
+        {
+          "name": "miko-modal-038",
+          "path": "miko-modal-038.mp3",
+          "description": {
+            "zh-CN": "嘤~",
+            "ja-JP": "いん～",
+            "en-US": "いん～"
+          }
+        }
+      ]
+    }
+  ]
 }
