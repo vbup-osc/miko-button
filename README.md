@@ -36,9 +36,9 @@
 
 ### 参与翻译
 
-主程序翻译在 [src/locales](src/locales) 中的三个以语言名命名的 js 文件中。
+主程序翻译在 [src/locales](https://github.com/VoiceButtonUnitedProject/MikoButton/tree/master/src/locales) 中的三个以语言名命名的 js 文件中。
 
-语音的翻译在 [src/voices.json](src/voices.json) 中。
+语音的翻译在 [src/voices.json](https://github.com/VoiceButtonUnitedProject/MikoButton/tree/master/src/voices.json) 中。
 
 ## 部署本地开发环境
 
