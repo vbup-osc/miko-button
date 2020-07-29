@@ -4225,10 +4225,10 @@ highlight.js@^9.6.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
   integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
 
-hls.js@^0.14.3:
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.3.tgz#07f30710576376327f0b29c1316fd0bff31ca23a"
-  integrity sha512-j+lbGBH5eU9r8A8kYQQHw/8x+G+mGCmtBaP5n4LS4qY7dUEbZRfa/RHfS2jM+4OgCfjdL/hgkYWYSZmwTgG5KQ==
+hls.js@^0.14.5:
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.5.tgz#25aa94a4fea941eb3fd58814fc9e2c041c22e9c0"
+  integrity sha512-sBu8M70FFfrJ2SQ/PFk2UyTwwveG+9BANpo38i6XAa7LQCeE9cvjM8JTq9PsGzJSuWLMtTYye5VmefUZ6SGHXw==
   dependencies:
     eventemitter3 "^4.0.3"
     url-toolkit "^2.1.6"
@@ -8382,10 +8382,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-class-component@^7.1.0, vue-class-component@^7.2.1:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.3.tgz#a5b1abd53513a72ad51098752e2dedd499807cca"
-  integrity sha512-oEqYpXKaFN+TaXU+mRLEx8dX0ah85aAJEe61mpdoUrq0Bhe/6sWhyZX1JjMQLhVsHAkncyhedhmCdDVSasUtDw==
+vue-class-component@^7.1.0, vue-class-component@^7.2.5:
+  version "7.2.5"
+  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.5.tgz#212b3548c4fdd3314774c4adbc1c3792a40b52d0"
+  integrity sha512-0CSftHY0bDTD+4FbYkuFf6+iKDjZ4h2in2YYJDRMk5daZIjrgT9LjFHvP7Rzqy9/s1pij3zDtTSLRUjsPWMwqg==
 
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
@@ -8404,10 +8404,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-i18n@^8.15.3:
-  version "8.18.2"
-  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.18.2.tgz#cd7c12f2e178e6faa23b0e3cfd2f7bac9305f8fc"
-  integrity sha512-0X5nBTCZAVjlwcrPaYJwNs3iipBBTv0AUHwQUOa8yP3XbQGWKbRHqBb3OhCYtum/IHDD21d/df5Xd2VgyxbxfA==
+vue-i18n@^8.19.0:
+  version "8.19.0"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.19.0.tgz#4326ade6cba7e18b22030ac1a14c59864b6dfc43"
+  integrity sha512-jXPsvkmDMkwhjGQEDF6BgGsmJQLjIO1CXJQ1RjZRnU80kzRG+/+277ADFTulAPQSb0hUlrsp4VzEPdeO7lKcRA==
 
 vue-loader@^15.9.2:
   version "15.9.3"
