@@ -19,13 +19,13 @@
                         <li><a href="https://space.bilibili.com/366690056" target="_blank"><img src="resources/bilibili.png" height="27"/></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right" style="margin-top:0px;margin-bottom:0px">
-                        <!--<li class="dropdown">
+                        <li class="dropdown">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="resources/download.svg" height="23"/></a>
                             <ul class="dropdown-menu">
                                 <li style="width: 63px;"><a href="https://sakuramiko.org/resources/android.apk" download="android.apk" target="_blank" style="padding-left:18px"><img src="resources/Android.png" height="27"/></a></li>
                                 <li style="width: 63px;"><a href="https://sakuramiko.org/resources/apple.mobileconfig" download="apple.mobileconfig" target="_blank" style="padding-left:18px"><img src="resources/Apple.png" height="27"/></a></li>
                             </ul>
-                        </li>-->
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right" style="margin-top:0px;">
                         <li class="dropdown">
