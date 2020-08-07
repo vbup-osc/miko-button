@@ -4246,10 +4246,10 @@ highlight.js@^9.6.0:
   resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.18.3.tgz#a1a0a2028d5e3149e2380f8a865ee8516703d634"
   integrity sha1-oaCiAo1eMUniOA+Khl7oUWcD1jQ=
 
-hls.js@^0.14.6:
+hls.js@^0.14.7:
   version "0.14.7"
-  resolved "https://registry.npm.taobao.org/hls.js/download/hls.js-0.14.7.tgz#47fbd2662b13121ab17c07aea06b1c07828240cf"
-  integrity sha1-R/vSZisTEhqxfAeuoGscB4KCQM8=
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.7.tgz#47fbd2662b13121ab17c07aea06b1c07828240cf"
+  integrity sha512-9JY0D9nwMrfQPRWc8/kEJTKK0TYfDTzIs6Xq+gdCvasRxdvQKQ2T76rdueTkS0AsFV6sQlJN0wxbnI44aRvvUA==
   dependencies:
     eventemitter3 "^4.0.3"
     url-toolkit "^2.1.6"
