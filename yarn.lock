@@ -4246,10 +4246,10 @@ highlight.js@^9.6.0:
   resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.18.3.tgz#a1a0a2028d5e3149e2380f8a865ee8516703d634"
   integrity sha1-oaCiAo1eMUniOA+Khl7oUWcD1jQ=
 
-hls.js@^0.14.6:
-  version "0.14.7"
-  resolved "https://registry.npm.taobao.org/hls.js/download/hls.js-0.14.7.tgz#47fbd2662b13121ab17c07aea06b1c07828240cf"
-  integrity sha1-R/vSZisTEhqxfAeuoGscB4KCQM8=
+hls.js@^0.14.7:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.8.tgz#c2c6ca7005524c81eece316c2a4a199258bd0590"
+  integrity sha512-4fh8k/sl1SmYXsT4Om8AY5fKa5tUUtAxup2sffrSMh5MNk4Kt4FOZxbjqTGL5VwkroY1oJ9twSciNQNFbPA/WQ==
   dependencies:
     eventemitter3 "^4.0.3"
     url-toolkit "^2.1.6"
@@ -7216,10 +7216,10 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass-loader@^9.0.2:
+sass-loader@^9.0.3:
   version "9.0.3"
-  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
-  integrity sha1-CGrc8L/cydkgQT4s3DujMhNz1Uc=
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
+  integrity sha512-fOwsP98ac1VMme+V3+o0HaaMHp8Q/C9P+MUazLFVi3Jl7ORGHQXL1XeRZt3zLSGZQQPC8xE42Y2WptItvGjDQg==
   dependencies:
     klona "^1.1.2"
     loader-utils "^2.0.0"
@@ -8448,15 +8448,15 @@ vue-property-decorator@^8.0.0:
   dependencies:
     vue-class-component "^7.1.0"
 
-vue-router@^3.1.5:
-  version "3.4.1"
-  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.4.1.tgz#e6275bfd1bfad3c0d82766377ba5f5f74f6da549"
-  integrity sha1-5idb/Rv608DYJ2Y3e6X1909tpUk=
+vue-router@^3.4.1:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.2.tgz#541221d7ac467786c1c9381bcf36019d883b9cf8"
+  integrity sha512-n3Ok70hW0EpcJF4lcWIwSHAQbFTnIOLl/fhO8+oTs4jHNtBNsovcVvPZeTOyKEd8C3xF1Crft2ASuOiVT5K1mw==
 
-vue-slider-component@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.npm.taobao.org/vue-slider-component/download/vue-slider-component-3.2.2.tgz#9803f357a12996fb3b81e5c1ad49f71af2858200"
-  integrity sha1-mAPzV6Eplvs7geXBrUn3GvKFggA=
+vue-slider-component@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-3.2.3.tgz#549feeb950613663cd20c91fd49101ce07c652be"
+  integrity sha512-n6WtI9KNunFvlod0CT1Y5cbR9ghJ3dcIbZM3uYwLB6cegGOsh00NoPv2nhHt31rCVs9/cCgzHoSkbl7hOJQKng==
   dependencies:
     core-js "^3.6.5"
     vue-property-decorator "^8.0.0"
