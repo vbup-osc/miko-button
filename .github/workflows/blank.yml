@@ -16,9 +16,9 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install Dependencies
-      run: npm install
+      run: yarn
     - name: Generate Static Site
-      run: npm run build
+      run: yarn build
         
     - name: Deploy
       working-directory: dist

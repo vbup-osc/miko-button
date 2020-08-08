@@ -205,6 +205,15 @@
             "ja-JP": "もう一回",
             "en-US": "One more time"
           }
+        },
+        {
+          "name": "miko-daily-023",
+          "path": "miko-daily-023.mp3",
+          "description": {
+            "zh-CN": "西给跌内",
+            "ja-JP": "しけてんねぇ",
+            "en-US": "That's so poor"
+          }
         }
       ]
     },
