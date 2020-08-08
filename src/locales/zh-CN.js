@@ -3,7 +3,7 @@ const zh_CN = {
         version: "Colorful Witch 1.2.0",
         title: "樱按钮",
         info: "信息",
-        author: "樱按钮团队 & 赌鬼巫女保护协会 2020",
+        author: "按钮联合工作室 & 赌鬼巫女保护协会 2020",
         null: "空",
         subscriber: "当前Youtube订阅数为：",
         audioStaff: "鸣谢名单以及网站相关",

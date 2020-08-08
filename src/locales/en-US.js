@@ -3,7 +3,7 @@ const en_US = {
         version: "Colorful Witch 1.2.0",
         title: "Miko Button",
         info: "Info",
-        author: "Miko Button Team & Miko Protection Association 2020",
+        author: "Voice Button United Studio & Miko Protection Association 2020",
         null: "Null",
         subscriber: "Current YouTube Subscribers:",
         audioStaff: "Acknowledgement and Website Info",
