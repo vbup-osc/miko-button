@@ -327,7 +327,7 @@ class HomePage extends Vue {
         if(this.$i18n.locale === 'ja-JP'){
             window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://sakuramiko.org");
         }else if(this.$i18n.locale === 'en-US'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ Today，"+res+"'s random audio is "+title+"！ Visit Miko Button Website For More Audio! https://sakuramiko.org");
+            window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ Today，"+res+"'s random audio is %22"+title+"%22！ Visit Miko Button Website For More Audio! https://sakuramiko.org");
         }else {
             window.open("https://twitter.com/intent/tweet?text="+"%23みこボタン %23さくらみこ 今天，“"+res+"”的随机音频是“"+title+"”！ 访问樱按钮网站聆听更多音频 https://sakuramiko.org");
         }
