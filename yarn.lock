@@ -1084,12 +1084,12 @@
     thread-loader "^2.1.3"
     webpack "^4.0.0"
 
-"@vue/cli-plugin-eslint@^4.4.6":
-  version "4.4.6"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-4.4.6.tgz#442d62a70dd93e4a549ff9164d2d10f4e97a58f1"
-  integrity sha1-RC1ipw3ZPkpUn/kWTS0Q9Ol6WPE=
+"@vue/cli-plugin-eslint@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.5.2.tgz#2aaf9dee417bef936e9910d41e6e6cd1e1b499cb"
+  integrity sha512-CTb3CaFYXLmAae0NTIV6qChmFyiMvur5YQEw4m6pcLFfOor8spaeyWFqA9t4K5qFyAmEtFqle3hgxJfKllu1fQ==
   dependencies:
-    "@vue/cli-shared-utils" "^4.4.6"
+    "@vue/cli-shared-utils" "^4.5.2"
     eslint-loader "^2.2.1"
     globby "^9.2.0"
     inquirer "^7.1.0"
@@ -1166,10 +1166,10 @@
     webpack-dev-server "^3.11.0"
     webpack-merge "^4.2.2"
 
-"@vue/cli-shared-utils@^4.4.6":
-  version "4.4.6"
-  resolved "https://registry.npm.taobao.org/@vue/cli-shared-utils/download/@vue/cli-shared-utils-4.4.6.tgz?cache=0&sync_timestamp=1595655079035&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-shared-utils%2Fdownload%2F%40vue%2Fcli-shared-utils-4.4.6.tgz#0ec59880920736c6dd79079ac0b5ceac29fa55e1"
-  integrity sha1-DsWYgJIHNsbdeQeawLXOrCn6VeE=
+"@vue/cli-shared-utils@^4.4.6", "@vue/cli-shared-utils@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.2.tgz#f46f04ad0476f9758d1ce8c1a306124dde704ed6"
+  integrity sha512-V/nNcYX+IRVG9o/9o3fxsj3aBPfpYExzjIHSusjWuSxUHpv0Vn4f9sIXG3N+FHgmcnQLqhmDNwlvRKIc+WFnLQ==
   dependencies:
     "@hapi/joi" "^15.0.1"
     chalk "^2.4.2"
@@ -4246,10 +4246,10 @@ highlight.js@^9.6.0:
   resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.18.3.tgz#a1a0a2028d5e3149e2380f8a865ee8516703d634"
   integrity sha1-oaCiAo1eMUniOA+Khl7oUWcD1jQ=
 
-hls.js@^0.14.6:
-  version "0.14.7"
-  resolved "https://registry.npm.taobao.org/hls.js/download/hls.js-0.14.7.tgz#47fbd2662b13121ab17c07aea06b1c07828240cf"
-  integrity sha1-R/vSZisTEhqxfAeuoGscB4KCQM8=
+hls.js@^0.14.7:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-0.14.8.tgz#c2c6ca7005524c81eece316c2a4a199258bd0590"
+  integrity sha512-4fh8k/sl1SmYXsT4Om8AY5fKa5tUUtAxup2sffrSMh5MNk4Kt4FOZxbjqTGL5VwkroY1oJ9twSciNQNFbPA/WQ==
   dependencies:
     eventemitter3 "^4.0.3"
     url-toolkit "^2.1.6"
@@ -7216,10 +7216,10 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass-loader@^9.0.2:
+sass-loader@^9.0.3:
   version "9.0.3"
-  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
-  integrity sha1-CGrc8L/cydkgQT4s3DujMhNz1Uc=
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
+  integrity sha512-fOwsP98ac1VMme+V3+o0HaaMHp8Q/C9P+MUazLFVi3Jl7ORGHQXL1XeRZt3zLSGZQQPC8xE42Y2WptItvGjDQg==
   dependencies:
     klona "^1.1.2"
     loader-utils "^2.0.0"
@@ -8448,10 +8448,10 @@ vue-property-decorator@^8.0.0:
   dependencies:
     vue-class-component "^7.1.0"
 
-vue-router@^3.1.5:
-  version "3.4.1"
-  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.4.1.tgz#e6275bfd1bfad3c0d82766377ba5f5f74f6da549"
-  integrity sha1-5idb/Rv608DYJ2Y3e6X1909tpUk=
+vue-router@^3.4.1:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.2.tgz#541221d7ac467786c1c9381bcf36019d883b9cf8"
+  integrity sha512-n3Ok70hW0EpcJF4lcWIwSHAQbFTnIOLl/fhO8+oTs4jHNtBNsovcVvPZeTOyKEd8C3xF1Crft2ASuOiVT5K1mw==
 
 vue-slider-component@^3.2.2:
   version "3.2.2"
