@@ -19,7 +19,7 @@
                         <div v-if="live.title.length">
                             <span v-if="live.status === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{new Date(live.live_schedule).toLocaleString()}}</span>
                             <span v-if="live.status === 'live'" class="warning--text" style="font-size:17px;">{{$t("action.ing")}}</span>
-                            <button class="btn btn-ctrldft"><a 
+                            <button class="btn btn-ctrldft"><a
                                 :href="'https://www.youtube.com/watch?v=' + live.yt_video_key"
                                 target="_blank"
                                 style="text-decoration: none;color: #ffffff;"
@@ -40,7 +40,7 @@
 					<button class="btn btn-ctrldft" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
-                <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
+                <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }}
                     <div class="cate-body">
                         <button class="btn btn-new" v-for="voiceItem in category.voiceList" v-bind:key="voiceItem.name" @click="play(voiceItem)">{{ $t("voice." + voiceItem.name )}}</button>
                     </div>
@@ -85,7 +85,7 @@
     text-align: center;
 }
 .btn-control-main:hover,.btn-control:focus{
-    background-color:rgb(255, 156, 156);    
+    background-color:rgb(255, 156, 156);
 }
 .btn-control{
     z-index: 1;
@@ -218,6 +218,9 @@
     color: rgb(255, 255, 255);
     background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
 }
+.btn.btn-new:focus{
+    outline: none; //去掉 bootstrap 的 outline 黑边
+}
 .btn-new:hover{
     color:#fff;
     box-shadow: 0px 0px 5px 5px rgba(255, 214, 214, 0.493);
@@ -260,7 +263,7 @@ class HomePage extends Vue {
                 img.src = "/resources/menu.svg";
             }
     }
-    created() { 
+    created() {
         this.youtube()
     }
     youtube() {
@@ -271,7 +274,7 @@ class HomePage extends Vue {
     }
     mounted() {
         axios.get('https://api.holotools.app/v1/live')
-        .then(response => { 
+        .then(response => {
             let fetched = response.data;
             let miko_lives = [];
             const channel_id = 'UC-hM6YJuNYVAmUWxeIr9FeA';
@@ -353,7 +356,7 @@ class HomePage extends Vue {
             default:
                 return 0;
         }
-    } 
+    }
 }
 export default HomePage;
 </script>
