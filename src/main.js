@@ -15,6 +15,7 @@ import 'bootstrap'
 import GlobalConst from './globalconst'
 
 import VoiceList from './voices.json'
+import './registerServiceWorker'
 
 
 //提取标签到语言文件
