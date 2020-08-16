@@ -1253,8 +1253,8 @@
 
 "@vue/cli-plugin-eslint@^4.5.3":
   version "4.5.3"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-4.5.3.tgz?cache=0&sync_timestamp=1597137051453&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-eslint%2Fdownload%2F%40vue%2Fcli-plugin-eslint-4.5.3.tgz#edac801bf05001e1a7fccd58b20c1a6cfe52701a"
-  integrity sha1-7ayAG/BQAeGn/M1YsgwabP5ScBo=
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.5.3.tgz#edac801bf05001e1a7fccd58b20c1a6cfe52701a"
+  integrity sha512-zSOLvLGI2gXdYTlkTOOgll1PbeXj7ka1mTKKHaFl/nNQhc76CiJ0Y/OzZlWqJOgk2lRlbL86KdioDh2FzZxFiw==
   dependencies:
     "@vue/cli-shared-utils" "^4.5.3"
     eslint-loader "^2.2.1"
