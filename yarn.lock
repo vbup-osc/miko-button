@@ -1240,8 +1240,8 @@
 
 "@vue/cli-plugin-babel@^4.5.3":
   version "4.5.3"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-4.5.3.tgz?cache=0&sync_timestamp=1597137050517&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-babel%2Fdownload%2F%40vue%2Fcli-plugin-babel-4.5.3.tgz#80b2d49b754f57707a25064935cb4efac60fa70c"
-  integrity sha1-gLLUm3VPV3B6JQZJNctO+sYPpww=
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.3.tgz#80b2d49b754f57707a25064935cb4efac60fa70c"
+  integrity sha512-couvyfj37ZLb5D0huKHQ7vk9f0vOWPmtJTTwEUidmYvdQOZdGMGuVgf/u7XoEqJqPKG1LPDaAJy45pBm1tAe+Q==
   dependencies:
     "@babel/core" "^7.11.0"
     "@vue/babel-preset-app" "^4.5.3"
