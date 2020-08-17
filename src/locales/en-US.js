@@ -30,7 +30,12 @@ const en_US = {
         noplay: "",
         adtitle: "● Collaborated Projects",
         plan: "Planned Date: ",
-        ing: "Now Streaming:"
+        ing: "Now Streaming:",
+        fubukibutton: "Fubuki Button",
+        koronebutton: "Korone Button",
+        okayubutton: "Okayu Button",
+        kanatabutton: "Kanata Button",
+        bellbutton: "Bell Button"
     },
     lang: {
         'zh-CN': "简体中文",

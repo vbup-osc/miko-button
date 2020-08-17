@@ -37,6 +37,11 @@
                 <div class="cate-ctrldft">{{$t("action.adtitle")}}
                     <button class="btn btn-ctrldft" onclick="window.open('https://www.bilibili.com/read/readlist/rl291775')">{{$t("action.weekly")}}</button>
 					<button class="btn btn-ctrldft" onclick="window.open('https://peko.top')">{{$t("action.pekobutton")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://fubuki.moe')">{{$t("action.fubukibutton")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://korone.icu')">{{$t("action.koronebutton")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://okayu.icu')">{{$t("action.okayubutton")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://kanata.club')">{{$t("action.kanatabutton")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://www.vividbtn.top/bell')">{{$t("action.bellbutton")}}</button>
 					<button class="btn btn-ctrldft" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">

@@ -30,7 +30,12 @@ const ja_JP = {
 		pekobutton: "ぺこらボタン",
         adtitle: "● コラボレーションプロジェクト",
         plan: "予定の期日：",
-        ing: "ライブ配信中："
+        ing: "ライブ配信中：",
+        fubukibutton: "フブキボタン",
+        koronebutton: "ころねボタン",
+        okayubutton: "おかゆボタン",
+        kanatabutton: "かなたんボタン",
+        bellbutton: "Bell ボタン"
     },
     lang: {
         'zh-CN': "简体中文",

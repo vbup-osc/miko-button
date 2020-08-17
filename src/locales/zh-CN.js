@@ -19,7 +19,7 @@ const zh_CN = {
         live: "● 信息面板",
 		weekly: "樱花神社周报",
         vtbbtn: "VTuber 按钮合集",
-		pekobutton: "Peko 按钮",
+		pekobutton: "Peko按钮",
         close: "关闭",
         copy: "复制",
         stopvoice: "停止",
@@ -30,7 +30,12 @@ const zh_CN = {
         noplay: "",
         adtitle: "● 联动项目",
         plan: "计划日期：",
-        ing: "正在直播："
+        ing: "正在直播：",
+        fubukibutton: "狐按钮",
+        koronebutton: "狗按钮",
+        okayubutton: "粥按钮",
+        kanatabutton: "彼方碳按钮",
+        bellbutton: "Bell按钮"
     },
     lang: {
         'zh-CN': "简体中文",
