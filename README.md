@@ -22,9 +22,9 @@
 
 ### 添加或修改音频
 
-**简述**：所有的音频信息都存储在 [src/voices.json](https://github.com/VoiceButtonUnitedProject/MikoButton/tree/master/src/voices.json) 中，要添加或修改音频，你需要同时修改对应的文件。
+**简述**：所有的音频信息都存储在 [src/voices.json](https://github.com/voosc/MikoButton/tree/master/src/voices.json) 中，要添加或修改音频，你需要同时修改对应的文件。
 
-音频一律为mp3格式，存储在 [public/voices](https://github.com/VoiceButtonUnitedProject/MikoButton/tree/master/public/voices) 中。对应的URL为 `voices/`。
+音频一律为mp3格式，存储在 [public/voices](https://github.com/voosc/MikoButton/tree/master/public/voices) 中。对应的URL为 `voices/`。
 
 添加的新音频请先使用类似 Adobe Audition 的软件进行响度匹配，目前使用的标准为 ITU-R BS.1770-3，目标响度 -24LUFS，容差 2LU，最高实际峰值电平 -2dBTP。
 
@@ -36,9 +36,9 @@
 
 ### 参与翻译
 
-主程序翻译在 [src/locales](https://github.com/VoiceButtonUnitedProject/MikoButton/tree/master/src/locales) 中的三个以语言名命名的 js 文件中。
+主程序翻译在 [src/locales](https://github.com/voosc/MikoButton/tree/master/src/locales) 中的三个以语言名命名的 js 文件中。
 
-语音的翻译在 [src/voices.json](https://github.com/VoiceButtonUnitedProject/MikoButton/tree/master/src/voices.json) 中。
+语音的翻译在 [src/voices.json](https://github.com/voosc/MikoButton/tree/master/src/voices.json) 中。
 
 ## 部署本地开发环境
 
@@ -56,7 +56,7 @@
 
 ## LICENSE
 
-This project is modified based on the [Mio button](https://github.com/VoiceButtonUnitedProject/MioButton).
+This project is modified based on the [Mio button](https://github.com/voosc/MioButton).
 
 程序部分: MIT
 
