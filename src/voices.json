@@ -214,6 +214,159 @@
             "ja-JP": "しけてんねぇ",
             "en-US": "That's so poor"
           }
+        },
+        {
+          "name": "miko-daily-024",
+          "path": "miko-daily-024.mp3",
+          "description": {
+            "zh-CN": "西给跌内 2",
+            "ja-JP": "しけてんねぇ 2",
+            "en-US": "That's so poor 2"
+          }
+        },
+        {
+          "name": "miko-daily-025",
+          "path": "miko-daily-025.mp3",
+          "description": {
+            "zh-CN": "Mo**erf**ker！",
+            "ja-JP": "マザーファッカー！",
+            "en-US": "Mo**erf**ker!"
+          }
+        },
+        {
+          "name": "miko-daily-026",
+          "path": "miko-daily-026.mp3",
+          "description": {
+            "zh-CN": "好！",
+            "ja-JP": "ナイスー！",
+            "en-US": "Nice!"
+          }
+        },
+        {
+          "name": "miko-daily-027",
+          "path": "miko-daily-027.mp3",
+          "description": {
+            "zh-CN": "We are FAQ",
+            "ja-JP": "We are FAQ",
+            "en-US": "We are FAQ"
+          }
+        },
+        {
+          "name": "miko-daily-028",
+          "path": "miko-daily-028.mp3",
+          "description": {
+            "zh-CN": "不是miko的错，对吧？",
+            "ja-JP": "みこは悪くないよねぇ？",
+            "en-US": "It's not miko's fault, right?"
+          }
+        },
+        {
+          "name": "miko-daily-029",
+          "path": "miko-daily-029.mp3",
+          "description": {
+            "zh-CN": "啊~啊~等一下",
+            "ja-JP": "ああ！ああ！ちょっと待って",
+            "en-US": "Ah! Ah! Wait"
+          }
+        },
+        {
+          "name": "miko-daily-030",
+          "path": "miko-daily-030.mp3",
+          "description": {
+            "zh-CN": "花Q！",
+            "ja-JP": "FAQ！",
+            "en-US": "FAQ!"
+          }
+        },
+        {
+          "name": "miko-daily-031",
+          "path": "miko-daily-031.mp3",
+          "description": {
+            "zh-CN": "骗子！",
+            "ja-JP": "嘘つき！",
+            "en-US": "Confidence man!"
+          }
+        },
+        {
+          "name": "miko-daily-032",
+          "path": "miko-daily-032.mp3",
+          "description": {
+            "zh-CN": "不是不是不是对不起对不起不是",
+            "ja-JP": "違うんです！すみません",
+            "en-US": "No no no, Sorry sorry no"
+          }
+        },
+        {
+          "name": "miko-daily-033",
+          "path": "miko-daily-033.mp3",
+          "description": {
+            "zh-CN": "等下等下好奇怪好奇怪不是不是好奇怪",
+            "ja-JP": "待っておかしい、違う",
+            "en-US": "Wait,That's so strange,no no,so strange"
+          }
+        },
+        {
+          "name": "miko-daily-034",
+          "path": "miko-daily-034.mp3",
+          "description": {
+            "zh-CN": "恩济西塔，真怀念啊这句话",
+            "ja-JP": "うんちしました。懐かしな、この言葉",
+            "en-US": "Unchi shimashita. I really miss this sentence"
+          }
+        },
+        {
+          "name": "miko-daily-035",
+          "path": "miko-daily-035.mp3",
+          "description": {
+            "zh-CN": "没有了啊",
+            "ja-JP": "ないなった",
+            "en-US": "Ah no more"
+          }
+        },
+        {
+          "name": "miko-daily-036",
+          "path": "miko-daily-036.mp3",
+          "description": {
+            "zh-CN": "生气了哦",
+            "ja-JP": "怒ったよ",
+            "en-US": "I'm angry"
+          }
+        },
+        {
+          "name": "miko-daily-037",
+          "path": "miko-daily-037.mp3",
+          "description": {
+            "zh-CN": "兔田这边啊！兔田！",
+            "ja-JP": "うさだこっちだよ！うさだ！",
+            "en-US": "Usada, here! Usada!"
+          }
+        },
+        {
+          "name": "miko-daily-038",
+          "path": "miko-daily-038.mp3",
+          "description": {
+            "zh-CN": "喂，兔田",
+            "ja-JP": "おい、うさだ",
+            "en-US": "Hey, Usada"
+          }
+        },
+        {
+          "name": "miko-daily-039",
+          "path": "miko-daily-039.mp3",
+          "description": {
+            "zh-CN": "在小看miko啊",
+            "ja-JP": "みこをなめてるとな",
+            "en-US": "You are underestimating Miko"
+          }
+        },
+        {
+          "name": "miko-daily-040",
+          "path": "miko-daily-040.mp3",
+          "description": {
+            "zh-CN": "我爱你",
+            "ja-JP": "愛してる（中国語）",
+            "en-US": "I love you (Chinese)"
+          }
         }
       ]
     },
@@ -565,6 +718,132 @@
             "zh-CN": "嘤~",
             "ja-JP": "いん～",
             "en-US": "Ehhh～"
+          }
+        },
+        {
+          "name": "miko-modal-039",
+          "path": "miko-modal-039.mp3",
+          "description": {
+            "zh-CN": "Miko RAP",
+            "ja-JP": "セセハハフフヒヒフフヒフーうぅ！",
+            "en-US": "Miko RAP"
+          }
+        },
+        {
+          "name": "miko-modal-040",
+          "path": "miko-modal-040.mp3",
+          "description": {
+            "zh-CN": "Nyaa!!",
+            "ja-JP": "ニャーー！！",
+            "en-US": "Nyaa!!"
+          }
+        },
+        {
+          "name": "miko-modal-041",
+          "path": "miko-modal-041.mp3",
+          "description": {
+            "zh-CN": "呸呸",
+            "ja-JP": "ぺっぺっ",
+            "en-US": "Bah bah"
+          }
+        },
+        {
+          "name": "miko-modal-042",
+          "path": "miko-modal-042.mp3",
+          "description": {
+            "zh-CN": "阿巴阿巴",
+            "ja-JP": "ばばばばば↓",
+            "en-US": "Wa wa wa wa wa"
+          }
+        },
+        {
+          "name": "miko-modal-043",
+          "path": "miko-modal-043.mp3",
+          "description": {
+            "zh-CN": "阿巴阿巴阿巴",
+            "ja-JP": "ほひゃぶぱぴぱぷぺぶばぶばぶ",
+            "en-US": "!#$%^&*"
+          }
+        },
+        {
+          "name": "miko-modal-044",
+          "path": "miko-modal-044.mp3",
+          "description": {
+            "zh-CN": "啊！！！",
+            "ja-JP": "あぁぁ！",
+            "en-US": "Ah!!!"
+          }
+        },
+        {
+          "name": "miko-modal-045",
+          "path": "miko-modal-045.mp3",
+          "description": {
+            "zh-CN": "啊！！！！",
+            "ja-JP": "ああーー！！！",
+            "en-US": "Ah!!!!"
+          }
+        },
+        {
+          "name": "miko-modal-046",
+          "path": "miko-modal-046.mp3",
+          "description": {
+            "zh-CN": "啊咧？",
+            "ja-JP": "あれ？",
+            "en-US": "Ah?"
+          }
+        },
+        {
+          "name": "miko-modal-047",
+          "path": "miko-modal-047.mp3",
+          "description": {
+            "zh-CN": "哎噫嗷噫唔噫",
+            "ja-JP": "アイ~オイ～ウイ～",
+            "en-US": "Ah~ Oi~"
+          }
+        },
+        {
+          "name": "miko-modal-048",
+          "path": "miko-modal-048.mp3",
+          "description": {
+            "zh-CN": "精英弹舌",
+            "ja-JP": "ぶぅぅぅぅ～",
+            "en-US": "Snapping tongue"
+          }
+        },
+        {
+          "name": "miko-modal-049",
+          "path": "miko-modal-049.mp3",
+          "description": {
+            "zh-CN": "呀呀呀呀呀呀",
+            "ja-JP": "やぁやぁやぁやぁやぁ！",
+            "en-US": "Ah ah ah ah ah!"
+          }
+        },
+        {
+          "name": "miko-modal-050",
+          "path": "miko-modal-050.mp3",
+          "description": {
+            "zh-CN": "啊啾 啊啾",
+            "ja-JP": "あっちゅ！あっちゅ！",
+            "en-US": "Atishoo atishoo"
+          }
+        },
+        {
+          "name": "miko-modal-051",
+          "path": "miko-modal-051.mp3",
+          "description": {
+            "zh-CN": "呐！",
+            "ja-JP": "な！",
+            "en-US": "Na!"
+          }
+        },
+        {
+          "name": "miko-modal-052",
+          "path": "miko-modal-052.mp3",
+          "description": {
+            "zh-CN": "精英嫌弃",
+            "ja-JP": "ぺっ！ぺっ",
+            "en-US": "Bah"
           }
         }
       ]
