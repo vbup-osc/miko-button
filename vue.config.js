@@ -20,6 +20,7 @@ module.exports = {
       background_color: '#FFDBE5'
     },
     workboxOptions: {
+      skipWaiting: true,
       importWorkboxFrom: 'disabled',
       importScripts: 'https://cdn.jsdelivr.net/npm/workbox-sw@4.3.1/build/workbox-sw.js'
     }
