@@ -21,7 +21,9 @@ module.exports = {
     },
     workboxOptions: {
       importWorkboxFrom: 'disabled',
+      skipWaiting: true,
       importScripts: 'https://cdn.jsdelivr.net/npm/workbox-sw@4.3.1/build/workbox-sw.js'
-    }
+    },
+    workboxPluginMode: 'GenerateSW'
   }
 }
