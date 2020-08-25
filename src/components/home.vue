@@ -278,7 +278,7 @@ class HomePage extends Vue {
         })
     }
     mounted() {
-        axios.get('https://api.holotools.app/v1/live')
+        axios.get('https://api.holotools.app/v1/live?max_upcoming_hours=336')
         .then(response => {
             let fetched = response.data;
             let miko_lives = [];
