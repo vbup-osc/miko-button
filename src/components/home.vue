@@ -123,10 +123,9 @@
     text-align: center;
     font-weight: 600;
     padding-bottom: 3px;
-    margin-left: 5px;
+    margin: 5px;
     transition-property: all;
     transition-duration: 300ms;
-    margin-right: 5px;
     word-wrap: break-word !important;
     word-break: break-all !important;
     white-space: normal !important;
@@ -140,13 +139,13 @@
     color: #fff;
 }
 .cate-header{/*分类标题*/
-    background-image: linear-gradient(to bottom right,#ff71a1,#fd598d) ;
+    background-image: linear-gradient(to bottom right, #ff93b5, #ff93b5);
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.151);
     border-radius: 30px;
     text-align: left;
     text-shadow:rgba(0, 0, 0, 0.2) 5px 6px 10px;
     transition-property: all;
-    transition-duration: 300ms;
+    transition-duration: 500ms;
     font-weight: 600;
     color: #fff;
     padding-top: 18px;
@@ -173,7 +172,7 @@
     font-weight: 600;
 }
 .cate-ctrldft{/*控制中心分类标题*/
-    background-image: linear-gradient(to bottom right,#ffafdb,#ff9bbc);
+    background-image: linear-gradient(to bottom right,#ff9bbc,#ffafdb);
     border-radius: 30px;
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
@@ -207,7 +206,7 @@
 }
 .btn-new {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(to bottom right,#fda6c2,#fda3c0);
+    background-image: linear-gradient(to bottom right,#ff5d90,#ff4782);
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
     border-radius: 15px;
     border: 0px;
@@ -235,8 +234,8 @@
     vertical-align: middle;
     margin: 0;
 }
-input::-webkit-input-placeholder{
-    color:#c5c5c5;
+input::-webkit-input-placeholder {
+    color: #fff;
 }
 </style>
 
