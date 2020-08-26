@@ -1,6 +1,6 @@
 const en_US = {
     info: {
-        version: "Colorful Witch 1.2.0",
+        version: "Colorful Witch 1.3.0",
         title: "Miko Button",
         info: "Info",
         author: "Voice Button United Studio & Miko Protection Association 2020",

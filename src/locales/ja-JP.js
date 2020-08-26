@@ -1,6 +1,6 @@
 const ja_JP = {
     info: {
-        version: "Colorful Witch 1.2.0",
+        version: "Colorful Witch 1.3.0",
         title: "みこボタン",
         info: "通知",
         null: "空",

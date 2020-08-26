@@ -1,6 +1,6 @@
 const zh_CN = {
     info: {
-        version: "Colorful Witch 1.2.0",
+        version: "Colorful Witch 1.3.0",
         title: "樱按钮",
         info: "信息",
         author: "按钮联合工作室 & 赌鬼巫女保护协会 2020",
