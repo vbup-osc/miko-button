@@ -25,7 +25,7 @@ const ja_JP = {
         autoplay: "自動放送",
         playing: "現在再生：",
         noplay: "",
-		weekly: "非公式翻訳と二次創作団体の週刊（中国語）",
+		weekly: "週刊（中国語）",
         vtbbtn: "VTuberの音声ボタンコレクション",
 		pekobutton: "ぺこらボタン",
         adtitle: "● コラボレーションプロジェクト",
