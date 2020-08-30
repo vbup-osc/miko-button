@@ -1,0 +1,45 @@
+{
+  "site": {
+    "title": "Miko Button ( - △ - )",
+    "description": "Brand-new voice buttons for Sakura Miko",
+    "index": "Home",
+    "links": "Links",
+    "about": "About",
+    "switch_dark_mode": "Switch Dark Mode",
+    "switch_language": "Switch Language",
+    "footer": {
+      "union": "Miko Protection Association",
+      "voosc": "Voice Button United Studio",
+      "content": "This site is a fan work and is not associated with the Hololive official. For staff and more information, please see \"About\" page."
+    },
+    "random": "Random Share",
+    "share": "Share to Twitter",
+    "placeholder": "Please enter a name",
+    "subscriber": "Current YouTube Subscribers:"
+  },
+  "live": {
+    "activity": "Info Panel",
+    "schedule": "Scheduled at ",
+    "on_air": "LIVE NOW",
+    "loading": "Fetching live data...",
+    "no_schedule": "No scheduled live is found.",
+    "notification": ""
+  },
+  "control": {
+    "self": "Player Control",
+    "pick_one": "Randomly Pick One",
+    "stop": "Stop Playing",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "overlap": "Overlap Mode",
+    "random": "Random Mode",
+    "repeat": "Repeat Mode",
+    "full_name": "Sakura Miko",
+    "overlap_title": "Multiple Miko Voices"
+  },
+  "dev": {
+    "title": "Development Mode",
+    "desc": "Dev mode may contains errors or vulnerability. We absolutely DO NOT guarantee any support and warranty. The actual new features are subject to the official version being launched.",
+    "to_stable": "Return to Official version"
+  }
+}
