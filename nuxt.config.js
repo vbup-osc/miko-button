@@ -109,6 +109,8 @@ export default {
       name: 'みこボタン'
     },
     workbox: {
+      swURL: '/service-worker.js',
+      skipWaiting: true,
       runtimeCaching: [
         {
           urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/miko-button@master/static/voices/*'
