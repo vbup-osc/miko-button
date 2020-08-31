@@ -11,7 +11,7 @@
         :style="{
           '--hover-content': 'url(\'' + emoji_url + '\')',
           '--progress': progress + '%',
-          '--start-percent': progress - 5 + '%'
+          '--start-percent': progress + '%'
         }"
       >
         <div style="z-index: 2;">
