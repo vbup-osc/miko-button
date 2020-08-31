@@ -3,16 +3,19 @@
     <template v-slot="{ hover }">
       <v-btn
         class="ma-1 pa-2 vo-btn"
-        :class="[dark_text]"
+        :class="[v_btn_classes]"
         :elevation="hover ? 6 : 2"
         rounded
         height="max-content"
         min-height="36px"
-        :large="large"
-        :style="{ '--hover-content': 'url(\'' + emoji_url + '\')' }"
+        :style="{
+          '--hover-content': 'url(\'' + emoji_url + '\')',
+          '--progress': progress + '%',
+          '--start-percent': progress - 5 + '%'
+        }"
       >
-        <div>
-          <slot></slot>
+        <div style="z-index: 2;">
+          <slot class="slot"></slot>
         </div>
       </v-btn>
     </template>
@@ -27,10 +30,6 @@ export default {
     emoji: {
       default: '🌸',
       type: String
-    },
-    large: {
-      default: false,
-      type: Boolean
     }
   },
   data() {
@@ -39,13 +38,20 @@ export default {
         base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji/assets',
         folder: '/svg',
         ext: '.svg'
-      }
+      },
+      transition: '',
+      width: '0',
+      timer: null,
+      progress: 0,
+      playing: false
     };
   },
   computed: {
-    dark_text() {
+    v_btn_classes() {
       return {
-        'grey--text text--lighten-2': this.$vuetify.theme.dark
+        'grey--text text--lighten-2 vo-btn-bg-dark': this.$vuetify.theme.dark,
+        'vo-btn-bg-light': !this.$vuetify.theme.dark,
+        playing: this.playing
       };
     },
     emoji_url() {
@@ -68,7 +74,15 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   text-transform: none !important;
   font-weight: 400;
   text-align: center;
-  /*background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%) !important;*/
+  z-index: 2;
+}
+
+.vo-btn-bg-light {
+  background: linear-gradient(to right, #fd6497 var(--start-percent), #f48fb1 var(--progress));
+}
+
+.vo-btn-bg-dark {
+  background: linear-gradient(to right, #ff3679 var(--start-percent), #d81b60 var(--progress));
 }
 
 .vo-btn div {
@@ -98,5 +112,43 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   opacity: 1;
   right: 0;
   text-align: center;
+}
+
+.btn-progress {
+  position: absolute;
+  top: -8px;
+  left: -16px;
+  width: 0;
+  border-radius: 28px;
+  min-height: 36px;
+  height: 100%;
+  transition: height 0.3s linear;
+}
+
+.playing div {
+  animation: shake 3s linear infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-4px);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  35% {
+    transform: translateY(-4px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 </style>
