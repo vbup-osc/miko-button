@@ -291,6 +291,17 @@ export default {
     format_time(stamp) {
       return require('dayjs')(stamp).format('YYYY/M/DD HH:mm');
     },
+    send_google_event(item) {
+      if (process.client && process.env.NODE_ENV === 'production') {
+        // eslint-disable-next-line no-undef
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'Audios',
+          eventAction: 'play',
+          eventLabel: item.name + ' ' + item.description['zh']
+        });
+      }
+    },
     youtube() {
       this.$axios.get('https://api.holotools.app/v1/channels/youtube/UC-hM6YJuNYVAmUWxeIr9FeA').then(response => {
         this.youtubeData = response.data;
@@ -386,6 +397,7 @@ export default {
         audio.volume = 1;
         audio.play();
         this.now_playing.add(audio);
+        this.send_google_event(item);
         ref.playing = true;
         setup_timer();
       });
@@ -393,6 +405,7 @@ export default {
         if (this.repeat) {
           audio.play();
           this.now_playing.add(audio);
+          this.send_google_event(item);
           ref.playing = true;
           setup_timer();
         } else if (this.random) {
