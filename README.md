@@ -1,6 +1,6 @@
 # 樱按钮 / みこボタン / Miko Button
 
-### Nya Hello ~!
+### 就这样吧。
 
 ### https://sakuramiko.org
 
