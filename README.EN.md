@@ -4,11 +4,11 @@
 
 ### https://sakuramiko.org
 
-相关链接 / 関連URL / Related Links:
+<!-- 相关链接 / 関連URL / Related Links:
 
 * [Sakura Miko's Youtube channel](https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA)
 
-* [Sakura Miko's Twitter](https://twitter.com/sakuramiko35)
+* [Sakura Miko's Twitter](https://twitter.com/sakuramiko35) -->
 
 ## 参与完善本项目
 
@@ -60,7 +60,7 @@ This project is modified based on the [Fubuki button](https://github.com/voosc/f
 
 程序部分: MIT
 
-音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms)
+<!-- 音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms) -->
 
 本项目为爱好者作品，与 hololive 官方没有关联。
 
