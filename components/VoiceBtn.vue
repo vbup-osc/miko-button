@@ -30,7 +30,7 @@ export default {
     emoji: {
       default: '🌸',
       type: String
-      },
+    },
     link: {
       default: false,
       type: Boolean
