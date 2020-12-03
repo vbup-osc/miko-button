@@ -244,21 +244,21 @@ export default {
       drawer: false,
       fixed: false,
       nav_items: [
-        {
-          icon: '/img/youtube-fill.svg',
-          title: 'Youtube',
-          to: 'https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA?sub_confirmation=1'
-        },
-        {
-          icon: '/img/twitter-fill.svg',
-          title: 'Twitter',
-          to: 'https://twitter.com/sakuramiko35'
-        },
-        {
-          icon: '/img/bilibili-fill.svg',
-          title: 'Bilibili',
-          to: 'https://space.bilibili.com/366690056'
-        }
+        // {
+        //   icon: '/img/youtube-fill.svg',
+        //   title: 'Youtube',
+        //   to: 'https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA?sub_confirmation=1'
+        // },
+        // {
+        //   icon: '/img/twitter-fill.svg',
+        //   title: 'Twitter',
+        //   to: 'https://twitter.com/sakuramiko35'
+        // },
+        // {
+        //   icon: '/img/bilibili-fill.svg',
+        //   title: 'Bilibili',
+        //   to: 'https://space.bilibili.com/366690056'
+        // }
       ],
       external_cn: [
         {
