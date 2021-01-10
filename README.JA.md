@@ -55,10 +55,16 @@
 4.要编译可用于部署的文件，请运行 `yarn generate`，这将在 `dist` 目录生成完全静态的文件。编译完成后，您可以直接将整个 `dist` 目录部署至 Github Pages 等静态文件托管服务上。
 
 ## LICENSE
+> 注：若以下内容存在与GPL协议内容冲突或GPL协议内容未提及的，请按以下内容为准。
 
-This project is modified based on the [Fubuki button](https://github.com/voosc/fubuki-button).
+This project is modified based on the [Fubuki button](https://github.com/lonelyion/fubuki-button).
 
-程序部分: MIT
+程序部分： GPL
+
+若引用我们的项目而不修改任何内容，则引用方需在描述和README.md的任意部位提及使用我们的项目。
+
+若修改我们项目源代码再发布，或参考我们项目内部实现发布另一个新项目，则发布方必须在该新（或修改后）项目的发布文章的首部 和 任何涉及我们项目相关内容的位置 明确声明来源于本仓库。
+不得扭曲或隐藏免费且开源的事实。
 
 <!-- 音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms) -->
 
