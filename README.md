@@ -77,10 +77,6 @@ This project is modified based on the [Fubuki button](https://github.com/lonelyi
 
 [他们的 Bilibili 频道](https://space.bilibili.com/487446531)
 
-#### 本项目由 [Vercel](https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss) 强力驱动。
-
-[![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss)
-
 #### 自豪的使用 [BrowserStack](https://www.browserstack.com/)。
 
 [![BrowserStack Logo](https://i.loli.net/2017/09/27/59cbc16b0f8b4.png)](https://www.browserstack.com/)
