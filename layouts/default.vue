@@ -148,12 +148,6 @@
             </v-btn>
           </div>
           <div>
-            <span>Powered by</span>
-            <a href="https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss" target="_blank" rel="noreferrer">
-              <img :src="vercel_logo" alt="vercel" height="16px" />
-            </a>
-          </div>
-          <div>
             <p>{{ $t('site.footer.content') }}</p>
           </div>
         </div>
